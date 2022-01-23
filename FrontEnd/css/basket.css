@@ -80,7 +80,7 @@ table{
    text-align: center;
 }
 
-.check{
+.check, .checkAll{
    width: 20px;
    height: 30px;
 }
