@@ -1,0 +1,87 @@
+.healthcare_main_img {
+   width: 100%;
+   height: 445px;
+ }
+ 
+ #cover > img {
+   width: 100%;
+   height: 445px;
+ }
+ 
+ 
+ .formtotal {
+   width: 100%;
+   height: 500px;
+   margin-top: 90px;
+ }
+ 
+ 
+ #chart{
+    margin-top: 1000px;
+ }
+
+ .font {
+   font-size: 40px;
+ }
+ 
+ .font > i {
+   color: #113e3ad8;
+   margin-bottom: 50px;
+ }
+ 
+ #subfont1 {
+   font-family: "InfinitySans-RegularA1";
+   width: 100%;
+   font-size: 30px;
+   font-weight: bolder;
+   margin-bottom: 50px;
+   padding-left: 10px;
+ }
+ 
+ 
+ #chart {
+   height: 100px;
+   width: 100%;
+ }
+ 
+ .highcharts-figure,
+ .highcharts-data-table table {
+   width: 100;
+   margin: 1em auto;
+ }
+ 
+ .highcharts-data-table table {
+   font-family: Verdana, sans-serif;
+   border-collapse: collapse;
+   border: 1px solid #ebebeb;
+   margin: 10px auto;
+   text-align: center;
+   width: 100%;
+   max-width: 500px;
+ }
+ 
+ .highcharts-data-table caption {
+   padding: 1em 0;
+   font-size: 1.2em;
+   color: #555;
+ }
+ 
+ .highcharts-data-table th {
+   font-weight: 600;
+   padding: 0.5em;
+ }
+ 
+ .highcharts-data-table td,
+ .highcharts-data-table th,
+ .highcharts-data-table caption {
+   padding: 0.5em;
+ }
+ 
+ .highcharts-data-table thead tr,
+ .highcharts-data-table tr:nth-child(even) {
+   background: #f8f8f8;
+ }
+ 
+ .highcharts-data-table tr:hover {
+   background: #f1f7ff;
+ }

@@ -16,6 +16,10 @@ nav {
    margin-top: 25px;
 }
 
+.basketInfo th:nth-child(2), .basketInfo td:nth-child(2){
+   width: 200px;
+}
+
 header .nowGrade{
    width:30%;
    font-size: 30px;
@@ -30,6 +34,7 @@ header .nowGrade{
    border: 1px solid black;
 }
 
+
 .basketHeader{
    border-bottom: 1px solid black;
    margin: 200px auto 10px auto;
@@ -40,7 +45,7 @@ header .nowGrade{
 }
 
 .productImgBox{
-   width: 140px;
+   width: 0px;
    height: 130px;
 }
 
@@ -62,6 +67,10 @@ header .nowGrade span, header .basketProduct span, .lastPrice span, .grade .this
 
 .oneRd, #oneRdSimbol, .threeRd, .productPrice span{
    color: #666;
+}
+
+nav table tr th:first-child{
+   width: 800px;
 }
 
 nav{
@@ -92,9 +101,17 @@ table{
    text-align: center;
 }
 
-.check{
-   width: 20px;
-   height: 30px;
+#bankBook, #card, #directBank, #phonePay{
+   width: 28px;
+   height: 28px;
+   vertical-align: middle;
+}
+
+
+.checkAll, .check{
+   width: 23px;
+   height: 23px;
+   vertical-align: middle;
 }
 
 th:first-child{
