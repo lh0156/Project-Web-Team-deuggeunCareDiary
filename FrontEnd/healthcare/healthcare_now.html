@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOP | 득근득근케어일기</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/font.css" />
+    <link rel="stylesheet" href="../css/healthcare.css/healthcare_now.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <style>
+      #content {
+        width: 100%;
+        height: 1200px;
+        /* border: 1px solid black; */
+        /* box-sizing: border-box; */
+      }
+      #container {
+        width: 1000px;
+        height: 500px;
+        margin: 0 auto;
+        /* border: 1px solid black; */
+        /* box-sizing: border-box; */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <div id="inc-header">
+      <div class="header">
+        <form action="">
+          <header>
+            <div id="logo">
+              <a href="#"
+                ><img src="../images/logo1.png" alt="로고" /><span id="first"
+                  >득근득근</span
+                ><br />케어일기</a
+              >
+            </div>
+            <div id="search">
+              <input type="text" placeholder="검색하기" /><a href="#!"
+                ><i
+                  class="fas fa-search"
+                  style="font-size: 1.5rem; margin-left: 2.3rem"
+                ></i
+              ></a>
+            </div>
+            <div id="menu">
+              <a href="#!">로그인 </a>&nbsp;|&nbsp;
+              <a href="#!">회원가입 </a>&nbsp;|&nbsp;
+              <a href="#!">주문조회 </a>&nbsp;|&nbsp;
+              <a href="#!">고객센터</a>
+            </div>
+          </header>
+        </form>
+      </div>
+      <div class="line_ccc"></div>
+      <div class="nav">
+        <nav>
+          <div class="side">
+            <a href="#!"
+              ><i class="fas fa-bars" style="margin-right: 1rem"></i>전체
+              카테고리</a
+            >
+            <ul id="drop-category">
+              <li onclick="location.href='';">메뉴1</li>
+              <li onclick="location.href='';">메뉴1</li>
+              <li onclick="location.href='';">메뉴1</li>
+              <li onclick="location.href='';">메뉴1</li>
+              <li onclick="location.href='';">메뉴1</li>
+            </ul>
+          </div>
+          <div class="main-nav"><a href="#!">베스트</a></div>
+          <div class="main-nav"><a href="#!">신상품</a></div>
+          <div class="main-nav">
+            <a href="healthcare_main.html">헬스케어</a>
+          </div>
+          <div class="main-nav"><a href="video_name.html">득근영상</a></div>
+          <div class="side">
+            <div>
+              <a href="#!"><i class="fas fa-user-circle"></i></a>
+            </div>
+            <div>
+              <a href="#!"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="line_black"></div>
+    </div>
+    <!-- location -->
+    <div id="inc-location">
+      <div>헬스케어</div>
+      <div>
+        메인
+        <i class="fas fa-angle-right"></i
+        ><a href="healthcare_main.html"> 헬스케어</a>
+        <i class="fas fa-angle-right"></i
+        ><a href="healthcare_now.html"> 정보입력</a>
+      </div>
+    </div>
+    <!-- content  -->
+    <div id="content">
+      <!-- 헬스케어 이미지 -->
+      <div class="healthcare_main_img">
+        <div id="cover">
+          <img src="../images/healthcare_main_img.jpg" style="opacity: 0.9" />
+        </div>
+      </div>
+      <div id="container">
+        <!-- 헬스 케어 현재스펙 입력창 제목 1/2 -->
+        <form name="healthcare_now_form" action="healthcare_now_form_ok.jsp">
+          <div class="formtotal">
+            <div class="font">
+              <i class="fas fa-lightbulb"
+                ><span id="subfont1"
+                  >&nbsp;&nbsp;회원님의 성별과 나이를 확인해주세요.</span
+                ></i
+              >
+            </div>
+            <div style="clear: both"></div>
+
+            <!-- 헬스케어 현재스펙 정보 입력창 -->
+            <div id="gender">
+              <label>성별</label>
+              <input type="text" name="txtgender" readonly />
+            </div>
+
+            <div id="age">
+              <label>나이</label>
+              <input type="number" value="나이" name="txtage" readonly />
+            </div>
+
+            <!-- 헬스케어 현재스펙 입력창 제목 2/2 -->
+            <div class="font">
+              <i class="fas fa-lightbulb"
+                ><span id="subfont2"
+                  >&nbsp;&nbsp;회원님의 오늘의 인바디를 입력해주세요.</span
+                ></i
+              >
+            </div>
+            <div style="clear: both"></div>
+
+            <div id="weight">
+              <label>체중</label>
+              <input type="number" name="txtweight" />
+            </div>
+
+            <div id="fat">
+              <label>체지방량</label>
+              <input type="number" name="txtfat" />
+            </div>
+
+            <div id="muscle">
+              <label>근육량</label>
+              <input type="number" name="txtmuscle" />
+            </div>
+
+            <!-- 헬스케어 넘어가기 버튼 -->
+            <div>
+              <input
+                type="button"
+                value="입력하기"
+                name="bt2"
+                id="btn2"
+                onClick="location.href='healthcare_want.html'"
+              />
+              <input
+                type="button"
+                value="기록보기"
+                name="bt1"
+                id="btn1"
+                onClick="location.href='healthcare_record.html'"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- 헬스케어 넘어가기 버튼 자바스크립트 -->
+    <script>
+      var txtgender = document.healthcare_now_form.txtgender;
+      var txtage = document.healthcare_now_form.txtage;
+      var txtweight = document.healthcare_now_form.txtweight;
+      var txtfat = document.healthcare_now_form.txtfat;
+      var txtmuscle = document.healthcare_now_form.txtmuscle;
+
+      var bt2 = document.healthcare_now_form.bt2;
+
+      bt2.onclick = m2;
+
+      function m2() {
+        for (var i = 0; i < txtweight.value.length; i++) {
+          var c = txtweight.value.charAt(i);
+          if (c < "0" || c > "9") {
+            alert("체중은 숫자만 입력해주세요.");
+            txtweight.focus();
+            return;
+          }
+        }
+
+        if (txtweight.value.trim() == "") {
+          alert("체중을 입력해주세요.");
+          txtweight.focus();
+          return;
+        }
+
+        for (var i = 0; i < txtfat.value.length; i++) {
+          var c = txtfat.value.charAt(i);
+          if (c < "0" || c > "9") {
+            alert("체지방량은 숫자만 입력해주세요.");
+            txtfat.focus();
+            return;
+          }
+        }
+
+        if (txtfat.value.trim() == "") {
+          alert("체지방량을 입력해주세요.");
+          txtfat.focus();
+          return;
+        }
+
+        for (var i = 0; i < txtmuscle.value.length; i++) {
+          var c = txtmuscle.value.charAt(i);
+          if (c < "0" || c > "9") {
+            alert("근육량은 숫자만 입력해주세요.");
+            txtmuscle.focus();
+            return;
+          }
+        }
+
+        if (txtmuscle.value.trim() == "") {
+          alert("근육량을 입력해주세요.");
+          txtmuscle.focus();
+          return;
+        }
+
+        document.healthcare_now_form.submit();
+      }
+    </script>
+
+    <!-- footer -->
+    <div id="inc-footer">
+      <footer>
+        <div id="footer-top">
+          <ul>
+            <li><a href="#!">고객센터</a></li>
+            <li><a href="#!">이용약관</a></li>
+            <li><a href="#!">개인정보처리방침</a></li>
+          </ul>
+        </div>
+        <div class="line_ccc"></div>
+        <div id="footer-bottom">
+          <div>고객센터 070-9999-8888</div>
+          <div>
+            득근득근케어일기 | (주)득근득근 | 대표: 김득근 | 개인정보보호책임자:
+            왕근육 | E-mail: admin@deukgeun.com
+          </div>
+          <div>서울특별시 강남구 근육로 3대 500, (득근빌딩)</div>
+          <div>
+            사업자등록번호:100-01-11111 사업자정보 확인 > 통신판매업신고
+          </div>
+          <div>&copy; Deukgeun, Inc.</div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

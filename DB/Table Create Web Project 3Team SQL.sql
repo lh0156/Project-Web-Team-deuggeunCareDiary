@@ -136,10 +136,12 @@ CREATE TABLE tblOtherNT  (
 	caffeine	            varchar2(20)	NOT NULL,
 	creatine    	varchar2(20)	NOT NULL,
 	betaAlanine	varchar2(20)	NOT NULL,
-	bcaa	            varchar2(20)	NOT NULL,
+	bcaa	varchar2(20)	NOT NULL,
 	magnesium	varchar2(20)	NOT NULL,
 	milkthistle	varchar2(20)	NOT NULL,
 	dietaryfiber	varchar2(20)	NOT NULL,
+	vitamin	varchar2(20)  NOT NULL,
+	lactobacillus varchar2(20)  NOT NULL,
 	productSeq	varchar2(20)	NOT NULL
 );
 

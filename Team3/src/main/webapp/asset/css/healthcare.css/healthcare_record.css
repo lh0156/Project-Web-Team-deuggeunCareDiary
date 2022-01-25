@@ -1,0 +1,136 @@
+/* 헬스 히스토리 메인 이미지 */
+.healthcare_main_img {
+  width: 100%;
+  height: 445px;
+}
+
+#cover > img {
+  object-fit: cover;
+  float: left;
+  width: 100%;
+  height: 445px;
+}
+
+/* 헬스 히스토리 메인 제목 */
+.formtotal {
+  width: 100%;
+  height: 500px;
+  margin-top: 90px;
+  float: left;
+}
+
+.font {
+  font-size: 40px;
+  float: left;
+}
+
+.font > i {
+  color: #113e3ad8;
+  margin-bottom: 50px;
+}
+
+#subfont1 {
+  font-family: "InfinitySans-RegularA1";
+  width: 100%;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  padding-left: 10px;
+}
+
+/* 헬스 히스토리 그래프 */
+.highcharts-data-table table {
+  /* font-family: Verdana, sans-serif; */
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+
+/* 헬스 히스토리 수정 추가 부분 */
+#formtotal2 {
+  width: 100%;
+  height: 500px;
+  margin-top: 100px;
+}
+
+.label {
+  width: 100%;
+  height: 120px;
+}
+
+.p {
+  font-size: 20px;
+  margin-left: 70px;
+}
+
+input[type="number"] {
+  width: 150px;
+  height: 35px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(233, 233, 233);
+}
+
+input[type="date"] {
+  width: 150px;
+  height: 35px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+  font-family: "InfinitySans-RegularA1";
+  font-weight: bold;
+}
+
+input[type="button"] {
+  width: 100px;
+  height: 35px;
+  background-color: #113e3a;
+  font-size: 15px;
+  color: #fff;
+  line-height: 0px;
+  font-family: "InfinitySans-RegularA1";
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#pk6 {
+  margin-left: 68px;
+}
+
+#pk9 {
+  margin-left: 85px;
+}
+
+#pk3 {
+  margin-left: 105px;
+}
+
+#pk1 {
+  margin-left: 60px;
+}

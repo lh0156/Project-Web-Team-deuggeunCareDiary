@@ -1,0 +1,119 @@
+/* 득근영상 페이지 전체 */
+#content {
+  margin-top: 50px;
+}
+
+/* 득근영상 페이지 컨텐츠 전체 */
+#container {
+  padding: 20px 20px 20px 20px;
+}
+
+/* 득근영상 페이지 컨텐츠 부분 */
+.all_content {
+  height: 200;
+  margin-bottom: 150px;
+}
+
+/* 득근영상 영상 카테고리 제목 부분 */
+.all_content .video_category {
+  font-size: 22px;
+  font-style: oblique;
+  font-weight: bolder;
+  width: 70%;
+  height: 23;
+  margin-bottom: 30px;
+  padding: 0px 0px 0px 10px;
+}
+
+/* 득근영상 갯수 & 정렬 부분 */
+.all_content .video_info {
+  font-size: 13px;
+  color: #3c3c3c9c;
+  font-weight: lighter;
+  width: 100;
+  margin-bottom: 18px;
+  padding: 15px 0px 5px 20px;
+}
+
+/* 득근영상 두번째줄 전 왼쪽정렬 해제 */
+.video_content_container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* 득근영상 제목 두번째줄 왼쪽정렬 해제 */
+.video_title_container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* 득근영상 영상 부분 */
+.all_content .video_content {
+  width: 230px;
+  font-size: 16px;
+  margin-right: 0px;
+  padding: 0px 10px 0px 10px;
+  float: left;
+}
+
+/* 득근영상 제목 부분 */
+.all_content .video_title {
+  width: 230px;
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 16px 10px 0px 10px;
+  display: -webkit-box;
+  overflow: hidden;
+  line-height: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  word-break: break-all;
+  float: left;
+}
+
+/* 득근영상 두번째줄 영상 부분 (개별제어) */
+#video5,
+#video10,
+#video15 {
+  margin-top: 23px;
+}
+
+/* 득근영상 정렬 전체 부분 */
+.all_content .video_info ui {
+  float: right;
+  margin-right: 15px;
+}
+
+/* 득근영상 정렬 상세 부분 */
+.all_content .video_info ui li {
+  font-size: 12px;
+  color: #3c3c3c9c;
+  float: left;
+  margin: 0px 2px 0px 2px;
+}
+
+/* 득근영상 정렬 상세 부분 (개별제어) */
+.video_info .list .order {
+  margin-right: 15px;
+}
+
+/* 기타 글꼴 조정 */
+#atitle1,
+#atitle2,
+#atitle3,
+#atitle4,
+#atitle5,
+#atitle6,
+#atitle7,
+#atitle8,
+#atitle9,
+#atitle10,
+#atitle11,
+#atitle12,
+#atitle13,
+#atitle14,
+#atitle15 {
+  color: #3c3c3c;
+}

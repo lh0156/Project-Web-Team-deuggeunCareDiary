@@ -1306,309 +1306,289 @@ insert into tblQAProduct (QAPSeq, QASeq, ProductSeq) values ('QP'||QAProduct_Seq
  insert into tblBasket values('BS'||basket_seq.nextVal, 'MB35', 'PD88', 2);
  
 -- 기타 영양소 OtherNT(O)
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD1');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD1');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD2');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD2');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD3');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD3');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD4');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD4');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD5');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD5');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD6');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD6');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD7');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD7');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD8');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD8');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD9');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD9');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD10');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD10');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD11');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD11');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD12');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD12');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD13');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD13');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD14');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD14');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD15');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD15');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD16');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD16');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD17');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD17');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD18');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD18');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD19');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD19');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD20');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD20');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD21');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD21');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD22');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD22');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD23');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD23');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD24');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD24');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD25');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD25');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD26');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD26');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD27');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD27');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD28');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD28');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD29');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD29');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD30');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD30');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD31');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD31');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD32');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD32');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD33');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD33');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD34');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD34');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD35');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD35');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD36');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD36');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD37');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD37');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD38');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD38');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD39');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD39');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD40');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD40');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD41');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD41');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD42');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD42');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD43');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD43');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD44');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD44');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD45');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD45');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD46');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD46');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD47');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD47');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD48');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD48');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD49');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD49');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD50');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD50');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD51');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD51');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD52');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD52');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD53');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD53');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD54');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD54');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD55');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD55');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD56');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD56');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD57');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD57');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD58');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD58');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD59');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD59');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD60');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD60');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD61');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD61');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD62');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD62');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD63');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD63');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD64');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD64');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD65');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD65');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD66');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD66');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD67');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD67');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD68');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD68');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','103mg','0mg','0mg','5.09mg','0mg','0mg','0mg','PD69');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','103mg','0mg','0mg','5.09mg','0mg','0mg','0mg','0mg','0mg', 'PD69');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','103mg','0mg','0mg','5.09mg','0mg','0mg','0mg','PD70');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','103mg','0mg','0mg','5.09mg','0mg','0mg','0mg','0mg','0mg', 'PD70');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD71');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD71');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD72');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD72');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD73');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD73');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD74');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD74');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD75');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD75');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD76');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD76');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD77');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD77');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD78');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', 'PD78');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','5.5mg','0mg','0mg','0mg','PD79');
+insert into tblOtherNT
+	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','5.5mg','0mg','0mg','0mg','0mg','0mg', 'PD79');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','5.5mg','0mg','0mg','0mg','PD80');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '1000mg','200mg','0mg','50mg','0mg','0mg','0mg','0mg','0mg','PD81');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD81');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '0mg', '0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD82');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD82');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '30mg', '0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD83');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD83');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg', '5000mg', 'PD84');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD84');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '400mg', '0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','1000mg','PD85');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD85');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '0mg','200mg','50mg','0mg','0mg','0mg','0mg','0mg','0mg','PD86');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD86');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '0mg','1000mg','1mg','30mg','2mg','0mg','0mg','0mg','0mg','PD87');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD87');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '3mg','1000mg','300mg','0mg','21mg','0mg','0mg','0mg','0mg','PD88');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD88');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '2mg','1200mg','100mg','0mg','0mg','0mg','0mg','0mg','0mg','PD89');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','95mg','0mg','0mg','PD89');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '2mg','1mg','3mg','1mg','2mg','95mg','0mg','4000mg','0mg','PD90');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','95mg','0mg','0mg','PD90');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '1300mg','0mg','0mg','0mg','0mg','0mg','0mg','5000mg','0mg','PD91');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD91');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '300mg','3000mg','0mg','0mg','0mg','2mg','0mg','0mg','0mg','PD92');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','284mg','0mg','0mg','PD92');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '0mg','0mg','0mg','0mg','3200mg','0mg','0mg','0mg','0mg','PD93');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','134mg','0mg','PD93');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '1mg','1mg','2mg','2mg','4mg','2000mg','0mg','0mg','0mg','PD94');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD94');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '1mg','800mg','110mg','0mg','3mg','2mg','3mg','0mg','0mg','PD95');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD95');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '1mg','0mg','3mg','2mg','4mg','0mg','4000mg','0mg','0mg','PD96');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD96');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '0mg','3mg','10mg','0mg','0mg','130mg','3500mg','0mg','0mg','PD97');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','130mg','0mg','0mg','PD97');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '2mg', '0mg', '5mg', '1mg', '0mg', '3000mg', '0mg', '0mg','0mg', 'PD98');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD98');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '1mg', '0mg', '5mg', '3mg', '0mg', '3mg', '100mg', '0mg', '8000mg','0mg', 'PD99');
 
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','100mg','0mg','0mg','PD99');
-
-insert into tblOtherNT(ONNSeq,fiber,caffeine,creatine,betaAlanine,bcaa,magnesium,milkthistle,dietaryfiber,productSeq) 
-	values ('ON' || OtherNT_seq.nextVal,'0mg','0mg','0mg','0mg','0mg','0mg','0mg','0mg','PD100');
+insert into tblOtherNT values ('ON' || OtherNT_seq.nextVal, '0mg', '1300mg', '1330mg', '0mg', '800mg','10mg', '0mg', '4mg', '0mg','0mg', 'PD100');
 
 -- 상품 이미지 ProductURL(O)
 insert into tblProductURL(productUrlSeq,productSeq,imgUrl) 
 	values ('PU' || productUrl_seq.nextVal,'PD1','C:\Users\ebzm0\Desktop\이미지\닭가슴살\닭가슴살(1).jpg');
+
+insert into tblProductURL(productUrlSeq,productSeq,imgUrl) 
+	values ('PU' || productUrl_seq.nextVal,'PD1','C:\Users\ebzm0\Desktop\이미지\닭가슴살\닭가슴살(2).jpg');
 
 insert into tblProductURL(productUrlSeq,productSeq,imgUrl) 
 	values ('PU' || productUrl_seq.nextVal,'PD3','C:\Users\ebzm0\Desktop\이미지\닭가슴살\닭가슴살(3).jpg');
@@ -2084,106 +2064,147 @@ INSERT INTO tblEachOrder (eachOrderSeq, stock, productSeq, orderSeq, process, di
 INSERT INTO tblEachOrder (eachOrderSeq, stock, productSeq, orderSeq, process, discountRate) VALUES ('EO'||eachOrder_seq.nextVal, 30, 'PD92', 'OD90', '결제완료', 3);
 
 -- 리뷰 Review
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4.8, 'EO1',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO1')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3.8, 'EO2',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO2')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4.4, 'EO3',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO3')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3.4, 'EO4',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO4')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4.9, 'EO5',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO5')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4.2, 'EO6',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO6')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4.6, 'EO7',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO7')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4.4, 'EO8',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO8')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4.5, 'EO9',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO9')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4.0, 'EO10',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO10')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4.9, 'EO11',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO11')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3.1, 'EO12',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO12')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4.4, 'EO13',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO13')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4.1, 'EO14',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO14')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4.4, 'EO15',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO15')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3.5, 'EO16',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO16')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4.2, 'EO17',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO17')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3.8, 'EO18',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO18')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4.0, 'EO19',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO19')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3.6, 'EO20',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO20')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3.3, 'EO21',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO21')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4.2, 'EO22',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO22')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4.8, 'EO23',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO23')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4.3, 'EO24',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO24')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 5.0, 'EO25',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO25')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3.1, 'EO26',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO26')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3.4, 'EO27',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO27')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 5.1, 'EO28',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO28')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3.3, 'EO29',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO29')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4.7, 'EO30',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO30')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4.5, 'EO31',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO31')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4.5, 'EO32',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO32')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4.4, 'EO33',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO33')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4.1, 'EO34',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO34')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3.2, 'EO35',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO35')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3.6, 'EO36',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO36')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 5.1, 'EO37',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO37')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 5.0, 'EO38',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO38')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4.1, 'EO39',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO39')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 5.0, 'EO40',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO40')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3.4, 'EO41',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO41')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4.5, 'EO42',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO42')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3.6, 'EO43',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO43')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4.7, 'EO44',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO44')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3.2, 'EO45',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO45')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4.6, 'EO46',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO46')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3.9, 'EO47',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO47')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3.7, 'EO48',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO48')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 5.0, 'EO49',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO49')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4.6, 'EO50',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO50')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3.5, 'EO51',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO51')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4.5, 'EO52',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO52')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3.1, 'EO53',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO53')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3.2, 'EO54',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO54')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3.3, 'EO55',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO55')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3.5, 'EO56',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO56')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4.5, 'EO57',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO57')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4.2, 'EO58',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO58')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3.8, 'EO59',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO59')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3.5, 'EO60',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO60')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3.9, 'EO61',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO61')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4.1, 'EO62',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO62')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4.1, 'EO63',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO63')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3.3, 'EO64',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO64')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3.4, 'EO65',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO65')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3.2, 'EO66',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO66')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3.5, 'EO67',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO67')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 5.1, 'EO68',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO68')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4.7, 'EO69',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO69')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4.9, 'EO70',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO70')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4.5, 'EO71',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO71')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3.8, 'EO72',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO72')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3.5, 'EO73',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO73')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3.9, 'EO74',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO74')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3.4, 'EO75',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO75')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4.8, 'EO76',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO76')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3.3, 'EO77',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO77')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4.0, 'EO78',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO78')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4.9, 'EO79',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO79')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3.5, 'EO80',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO80')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4.4, 'EO81',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO81')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 5.1, 'EO82',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO82')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4.0, 'EO83',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO83')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3.4, 'EO84',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO84')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4.6, 'EO85',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO85')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4.7, 'EO86',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO86')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3.9, 'EO87',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO87')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4.3, 'EO88',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO88')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4.7, 'EO89',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO89')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3.2, 'EO90',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO90')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 5.1, 'EO91',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO91')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3.5, 'EO92',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO92')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4.8, 'EO93',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO93')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4.2, 'EO94',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO94')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3.6, 'EO95',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO95')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3.4, 'EO96',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO96')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4.7, 'EO97',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO97')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3.5, 'EO98',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO98')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4.4, 'EO99',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO99')));
-INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4.9, 'EO100',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO100')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3, 'EO1',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO1')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO2',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO2')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO3',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO3')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3, 'EO4',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO4')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO5',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO5')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO6',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO6')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3, 'EO7',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO7')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO8',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO8')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3, 'EO9',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO9')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO10',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO10')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3, 'EO11',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO11')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4, 'EO12',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO12')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4, 'EO13',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO13')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO14',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO14')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3, 'EO15',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO15')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3, 'EO16',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO16')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO17',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO17')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO18',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO18')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO19',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO19')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO20',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO20')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO21',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO21')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3, 'EO22',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO22')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4, 'EO23',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO23')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO24',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO24')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3, 'EO25',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO25')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO26',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO26')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO27',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO27')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4, 'EO28',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO28')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4, 'EO29',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO29')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4, 'EO30',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO30')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4, 'EO31',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO31')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3, 'EO32',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO32')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3, 'EO33',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO33')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3, 'EO34',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO34')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4, 'EO35',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO35')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3, 'EO36',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO36')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3, 'EO37',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO37')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4, 'EO38',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO38')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3, 'EO39',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO39')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO40',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO40')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO41',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO41')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO42',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO42')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3, 'EO43',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO43')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO44',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO44')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3, 'EO45',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO45')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3, 'EO46',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO46')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO47',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO47')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4, 'EO48',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO48')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO49',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO49')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3, 'EO50',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO50')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4, 'EO51',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO51')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3, 'EO52',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO52')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO53',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO53')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO54',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO54')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO55',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO55')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3, 'EO56',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO56')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3, 'EO57',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO57')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO58',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO58')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3, 'EO59',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO59')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO60',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO60')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO61',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO61')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4, 'EO62',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO62')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3, 'EO63',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO63')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO64',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO64')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3, 'EO65',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO65')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO66',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO66')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4, 'EO67',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO67')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3, 'EO68',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO68')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3, 'EO69',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO69')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO70',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO70')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3, 'EO71',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO71')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO72',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO72')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3, 'EO73',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO73')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4, 'EO74',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO74')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO75',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO75')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4, 'EO76',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO76')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4, 'EO77',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO77')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3, 'EO78',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO78')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3, 'EO79',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO79')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3, 'EO80',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO80')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4, 'EO81',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO81')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO82',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO82')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO83',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO83')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4, 'EO84',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO84')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3, 'EO85',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO85')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO86',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO86')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO87',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO87')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3, 'EO88',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO88')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3, 'EO89',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO89')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO90',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO90')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO91',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO91')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4, 'EO92',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO92')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3, 'EO93',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO93')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO94',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO94')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3, 'EO95',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO95')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO96',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO96')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO97',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO97')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO98',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO98')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4, 'EO99',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO99')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO100',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO100')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 3, 'EO101',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO101')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3, 'EO102',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO102')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3, 'EO103',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO103')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3, 'EO104',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO104')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4, 'EO105',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO105')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO106',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO106')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4, 'EO107',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO107')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4, 'EO108',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO108')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO109',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO109')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO110',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO110')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4, 'EO111',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO111')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4, 'EO112',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO112')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4, 'EO113',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO113')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3, 'EO114',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO114')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO115',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO115')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO116',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO116')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 3, 'EO117',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO117')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO118',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO118')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO119',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO119')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO120',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO120')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3, 'EO121',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO121')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3, 'EO122',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO122')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO123',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO123')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO124',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO124')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4, 'EO125',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO125')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3, 'EO126',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO126')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4, 'EO127',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO127')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3, 'EO128',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO128')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 3, 'EO129',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO129')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO130',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO130')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO131',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO131')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO132',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO132')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 4, 'EO133',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO133')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO134',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO134')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 3, 'EO135',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO135')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '오늘도 내일도 먹는 제품!! 많이 먹고 많이 득근할게요~!', 4, 'EO136',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO136')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '이거 없으면 못 살 정도로 저에게 필요합니다.. 항상 배송 꼼꼼히 빠르게 오고 상태도 좋네요^^', 4, 'EO137',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO137')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4, 'EO138',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO138')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '역시 믿고 구매합니다. 제 건강을 위해 정말 좋은 선택을 한 것 같아요!', 4, 'EO139',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO139')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '정말 좋은 제품인데 이번에는 별로 좋지못한 제품이 배송됐네요 ㅠ 귀찮아서 그냥 먹습니다..', 3, 'EO140',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO140')));
+INSERT INTO tblReview (reviewSeq, reviewContent, reviewPoint, eachOrderSeq, reviewDate) VALUES ('RV'||review_seq.nextVal, '항상 떨어질 때 쯤 구매하는 제품이에요..! 제발 단종되지 않길 ㅠㅠ..', 4, 'EO141',(SELECT orderDate FROM tblOrder WHERE orderSeq=(SELECT orderSeq FROM tblEachOrder WHERE eachOrderSeq='EO141')));
 
 -- 상품 회수 refund
 INSERT INTO tblRefund (refundSeq, refundDate, refundRequest, eachOrderSeq, refundCheck) VALUES ('RF'||refund_seq.nextVal, TO_DATE('2022-01-12  23:40:13', 'YYYY-MM-DD hh24:mi:ss'), '제품에 하자가 있네요; 환불 부탁드립니다', 'EO40', '회수완료');

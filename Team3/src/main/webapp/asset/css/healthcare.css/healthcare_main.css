@@ -1,0 +1,85 @@
+/* 헬스케어 메인 제목 */
+.title {
+  /* font-style: oblique; */
+  font-size: 40px;
+  text-align: center;
+  margin-top: 110px;
+}
+
+#title_one {
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+
+#title_two {
+  margin-top: 20px;
+}
+
+.line {
+  border: 1px solid gainsboro;
+  height: 250px;
+  margin-top: 80px;
+}
+
+#main_img1 > img {
+  width: 600px;
+  height: 250px;
+  object-fit: cover;
+  float: left;
+}
+
+/* 헬스케어 컨텐츠 부분 */
+#main_img2 > img {
+  width: 600px;
+  height: 250px;
+  object-fit: cover;
+  float: left;
+}
+
+#main_img3 > img {
+  width: 600px;
+  height: 250px;
+  object-fit: cover;
+  float: left;
+}
+
+.subtitle {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 70px;
+  margin-left: 630px;
+}
+
+.subtxt {
+  font-size: 15px;
+  text-align: left;
+  margin-top: 13px;
+  margin-left: 630px;
+  margin-right: 40px;
+  line-height: 25px;
+  color: #666666;
+}
+
+#btngo {
+  border: 1px solid black;
+  text-align: center;
+  width: 350px;
+  height: 30px;
+  margin-left: 325px;
+  margin-top: 120px;
+  background-color: #113e3a;
+  font-size: 23px;
+  color: #fff;
+  padding-top: 30px;
+  line-height: 0px;
+  font-family: fontawesome;
+  font-weight: bold;
+}
+
+#some {
+  font-size: 23px;
+  color: #fff;
+  line-height: 0px;
+}

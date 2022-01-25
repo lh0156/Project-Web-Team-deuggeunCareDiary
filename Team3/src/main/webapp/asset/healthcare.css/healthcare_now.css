@@ -1,0 +1,107 @@
+/* 헬스케어 메인 이미지 */
+.healthcare_main_img {
+  width: 100%;
+  height: 445px;
+}
+
+#cover > img {
+  object-fit: cover;
+  float: left;
+  width: 100%;
+  height: 445px;
+}
+
+/* 헬스케어 현재스펙 입력창 제목 1/2, 2/2 */
+.formtotal {
+  width: 100%;
+  height: 500px;
+  margin-top: 90px;
+  float: left;
+}
+
+.font {
+  font-size: 40px;
+  float: left;
+}
+
+.font > i {
+  color: #113e3ad8;
+  margin-bottom: 50px;
+}
+
+#subfont1,
+#subfont2 {
+  font-family: "InfinitySans-RegularA1";
+  width: 100%;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+/* 헬스케어 현재스펙 정보 입력창 */
+#gender,
+#age,
+#weight,
+#fat,
+#muscle {
+  width: 300px;
+  height: 140px;
+  float: left;
+  font-size: 25px;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 150px;
+  height: 35px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 20px;
+  background-color: rgb(233, 233, 233);
+}
+
+input[type="number"] {
+  width: 150px;
+  height: 35px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(233, 233, 233);
+}
+
+/* 헬스케어 넘어가기 버튼 */
+#btn2 {
+  width: 200px;
+  height: 60px;
+  margin-top: 20px;
+  background-color: #113e3a;
+  font-size: 23px;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 0px;
+  font-family: "InfinitySans-RegularA1";
+  font-weight: bold;
+  margin-left: 228px;
+  cursor: pointer;
+}
+
+#btn1 {
+  width: 200px;
+  height: 60px;
+  margin-top: 20px;
+  background-color: #113e3a;
+  font-size: 23px;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 0px;
+  font-family: "InfinitySans-RegularA1";
+  font-weight: bold;
+  margin-left: 50px;
+  cursor: pointer;
+}
