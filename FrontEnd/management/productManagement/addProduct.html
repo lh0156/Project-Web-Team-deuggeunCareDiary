@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상품추가/수정</title>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/font.css">
+    <link rel="stylesheet" href="../../css/admin/addProduct.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <style>
+        #content{
+            width: 100%;
+            /* border: 1px solid black; */
+            /* box-sizing: border-box; */
+        }
+        #container{
+            width: 1000px;
+            margin: 0 auto;
+            margin-bottom: 200px;
+            /* border: 1px solid black; */
+            /* box-sizing: border-box; */
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <div id="inc-header">
+        <div class="header">
+            <form action="">
+                <header>
+                    <div id="logo"><a href="#"><img src="images/logo1.png" alt="로고"><span id="first">득근득근</span><br>케어일기</a></div>
+                    <div id="search"><input type="text" placeholder="검색하기"><a href="#!"><i class="fas fa-search" style="font-size:1.5rem; margin-left: 2.3rem;"></i></a></div>
+                    <div id="menu">
+                        <a href="#!">로그인 </a>&nbsp;|&nbsp; 
+                        <a href="#!">회원가입 </a>&nbsp;|&nbsp; 
+                        <a href="#!">주문조회 </a>&nbsp;|&nbsp; 
+                        <a href="#!">고객센터</a>
+                    </div>
+                </header>
+            </form>
+        </div>
+        <div class="line_ccc"></div>
+        <div class="nav">
+            <nav>
+                <div class="side">
+                    <a href="#!"><i class="fas fa-bars" style="margin-right: 1rem;"></i>전체 카테고리</a>
+                    <ul id="drop-category">
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                    </ul>
+                </div>
+                <div class="main-nav"><a href="#!">베스트</a></div>
+                <div class="main-nav"><a href="#!">신상품</a></div>
+                <div class="main-nav"><a href="#!">헬스케어</a></div>
+                <div class="main-nav"><a href="#!">득근영상</a></div>
+                <div class="side">
+                    <div><a href="#!"><i class="fas fa-user-circle"></i></a></div>
+                    <div><a href="#!"><i class="fas fa-shopping-cart"></i></a></div>
+                </div>
+            </nav>
+        </div>
+        <div class="line_black"></div>
+    </div>
+    <!-- location -->
+    <div id="inc-location">
+        <div>상품추가/수정</div>
+        <div>
+            관리자모드
+            <i class="fas fa-angle-right"></i>
+            상품추가/수정
+        </div>
+    </div>
+    <!-- content  -->
+    <div id="content">
+        <div id="container">
+            <div id="product-form">
+                <form>
+                    <div id="block1">
+                        <p>상품 기본 정보</p>
+                        <div class="row">
+                            <div class="leftSide">상품명</div>
+                            <div class="rightSide"><input type="text"></div>
+                        </div>
+                        <div class="row">
+                            <div class="leftSide">카테고리</div>
+                            <div class="rightSide">
+                                <select>
+                                    <option value="">닭가슴살</option>
+                                    <option value="">도시락</option>
+                                    <option value="">야채류</option>
+                                    <option value="">단백질보충제</option>
+                                    <option value="">기타영양제</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="leftSide">가격</div>
+                            <div class="rightSide"><input type="number" name="" id="" min="0"> 원</div>
+                        </div>
+                        <div class="row">
+                            <div class="leftSide">상품설명</div>
+                            <div class="rightSide"><textarea name="" id="" cols="80" rows="10"></textarea></div>
+                        </div>
+                        <div class="row">
+                            <div class="leftSide">판매상태</div>
+                            <div class="rightSide">
+                                <select name="" id="">
+                                    <option value="">판매중</option>
+                                    <option value="">단종</option>
+                                    <option value="">품절</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="leftSide">재고</div>
+                            <div class="rightSide"><input type="number" name="" id=""> 개</div>
+                        </div>
+                        <div class="row">
+                            <div class="leftSide">이미지</div>
+                            <div id="imgInputDiv" class="rightSide">
+                                <input type="file">
+                                <input type="file">
+                                <input type="file">
+                                <input type="file">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="block2">
+                        <p>필수 영양소</p>
+                        <div class="row">
+                            <div class="leftSide">탄수화물</div>
+                            <div class="rightSide"><input type="number" name="" id="" min="0"> g</div>
+                        </div>
+                        <div class="row">
+                            <div class="leftSide">단백질</div>
+                            <div class="rightSide"><input type="number" name="" id="" min="0"> g</div>
+                        </div>
+                        <div class="row">
+                            <div class="leftSide">지방</div>
+                            <div class="rightSide"><input type="number" name="" id="" min="0"> g</div>
+                        </div>
+                    </div>
+                    
+                    <div id="block3">
+                        <p>기타 영양소</p>
+                        <div class="row">
+                            <div class="leftSide">섬유질</div>
+                            <div class="rightSide"><input type="number" name="" id="" min="0"> mg</div>
+                            <div class="leftSide">카페인</div>
+                            <div class="rightSide"><input type="number" name="" id="" min="0"> mg</div>
+                        </div>
+                        <div class="row">
+                            <div class="leftSide">크레아틴</div>
+                            <div class="rightSide"><input type="number" name="" id="" min="0"> mg</div>
+                            <div class="leftSide">베타알라닌</div>
+                            <div class="rightSide"><input type="number" name="" id="" min="0"> mg</div>
+                        </div>
+                        <div class="row">
+                            <div class="leftSide">BCAA</div>
+                            <div class="rightSide"><input type="number" name="" id="" min="0"> mg</div>
+                            <div class="leftSide">마그네슘</div>
+                            <div class="rightSide"><input type="number" name="" id="" min="0"> mg</div>
+                        </div>
+                        <div class="row">
+                            <div class="leftSide">밀크씨슬</div>
+                            <div class="rightSide"><input type="number" name="" id="" min="0"> mg</div>
+                            <div class="leftSide">식이섬유</div>
+                            <div class="rightSide"><input type="number" name="" id="" min="0"> mg</div>
+                        </div>
+                        <div class="row">
+                            <div class="leftSide">비타민</div>
+                            <div class="rightSide"><input type="number" name="" id="" min="0"> mg</div>
+                            <div class="leftSide">유산균</div>
+                            <div class="rightSide"><input type="number" name="" id="" min="0"> mg</div>
+                        </div>
+                    </div>
+
+                    <div id="block4">
+                        <input type="submit" value="등록하기"><button onclick="history.back();">돌아가기</button>
+                    </div>
+                </form>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="inc-footer">
+        <footer>
+            <div id="footer-top">
+                <ul>
+                    <li><a href="#!">고객센터</a></li>
+                    <li><a href="#!">이용약관</a></li>
+                    <li><a href="#!">개인정보처리방침</a></li>
+                </ul>
+            </div>
+            <div class="line_ccc"></div>
+            <div id="footer-bottom">
+                <div>고객센터 070-9999-8888</div>
+                <div>득근득근케어일기 | (주)득근득근 | 대표: 김득근 | 개인정보보호책임자: 왕근육 | E-mail: admin@deukgeun.com</div>
+                <div>서울특별시 강남구 근육로 3대 500, (득근빌딩)</div>
+                <div>사업자등록번호:100-01-11111 사업자정보 확인 > 통신판매업신고 </div>
+                <div>&copy; Deukgeun, Inc.</div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+</body>
+</html>

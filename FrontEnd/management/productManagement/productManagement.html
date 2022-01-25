@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상품관리</title>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/admin/productManagement.css">
+    <link rel="stylesheet" href="../../css/font.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <script src="../js/jquery-1.12.4.js"></script>
+    <style>
+        #content{
+            width: 100%;
+            /* border: 1px solid black; */
+            /* box-sizing: border-box; */
+        }
+        #container{
+            width: 1000px;
+            margin: 0 auto;
+            margin-top: 30px;
+            margin-bottom: 200px;
+            /* border: 1px solid black; */
+            /* box-sizing: border-box; */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <div id="inc-header">
+        <div class="header">
+            <form action="">
+                <header>
+                    <div id="logo"><a href="#"><img src="images/logo1.png" alt="로고"><span id="first">득근득근</span><br>케어일기</a></div>
+                    <div id="search"><input type="text" placeholder="검색하기"><a href="#!"><i class="fas fa-search" style="font-size:1.5rem; margin-left: 2.3rem;"></i></a></div>
+                    <div id="menu">
+                        <a href="#!">로그인 </a>&nbsp;|&nbsp; 
+                        <a href="#!">회원가입 </a>&nbsp;|&nbsp; 
+                        <a href="#!">주문조회 </a>&nbsp;|&nbsp; 
+                        <a href="#!">고객센터</a>
+                    </div>
+                </header>
+            </form>
+        </div>
+        <div class="line_ccc"></div>
+        <div class="nav">
+            <nav>
+                <div class="side">
+                    <a href="#!"><i class="fas fa-bars" style="margin-right: 1rem;"></i>전체 카테고리</a>
+                    <ul id="drop-category">
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                    </ul>
+                </div>
+                <div class="main-nav"><a href="#!">베스트</a></div>
+                <div class="main-nav"><a href="#!">신상품</a></div>
+                <div class="main-nav"><a href="#!">헬스케어</a></div>
+                <div class="main-nav"><a href="#!">득근영상</a></div>
+                <div class="side">
+                    <div><a href="#!"><i class="fas fa-user-circle"></i></a></div>
+                    <div><a href="#!"><i class="fas fa-shopping-cart"></i></a></div>
+                </div>
+            </nav>
+        </div>
+        <div class="line_black"></div>
+    </div>
+    <!-- location -->
+    <div id="inc-location">
+        <div>상품 관리</div>
+        <div>
+            관리자모드
+            <i class="fas fa-angle-right"></i>
+            상품관리
+        </div>
+    </div>
+    <!-- content  -->
+    <div id="content">
+        <div id="container">
+
+            <div id="search-tool">
+                <form id="search-form">
+                    <div id="row1" class="search-row">
+                        <div>
+                            <select name="column-name" id="search-category">
+                                <option value="productCode">상품코드</option>
+                                <option value="productName">상품명</option>
+                            </select>
+                            <input type="text" name="query" placeholder="상품 정보를 입력하세요." autofocus>
+                        </div>
+                        <div class="search-button">
+                            <input type="submit" value="검색하기">
+                        </div>
+                    </div>
+                    <div id="row2" class="search-row">
+                        <div>
+                            <label><input type="checkbox" name="user-acrt" value="accurate">정확히 일치하는 정보 조회하기</label>
+                            <label>
+                                <select name="search-order" id="search-order">
+                                    <option value="productCode">상품코드</option>
+                                    <option value="productName">재고적은순</option>
+                                    <option value="productName">재고많은순</option>
+                                    <option value="productName">가격높은순</option>
+                                    <option value="productName">가격낮은순</option>
+                                    <option value="productName">판매량높은순</option>
+                                    <option value="productName">판매량낮은순</option>
+                                </select>
+                                (으)로정렬하기
+                            </label>
+                        </div>
+                        <div class="search-button">
+                            <button type="button" id="initialization">조건초기화</button>
+                        </div>
+                    </div>
+                    <div id="row3" class="search-row">
+                        <div>
+                            <label>
+                                <select name="product-category" id="product-category">
+                                    <option value="productCode">메뉴1</option>
+                                    <option value="productName">메뉴2</option>
+                                    <option value="productName">메뉴3</option>
+                                    <option value="productName">메뉴4</option>
+                                    <option value="productName">메뉴5</option>
+                                </select>
+                                카테고리 검색하기
+                            </label>
+                            <label>
+                                <select name="product-state" id="product-state">
+                                    <option value="productCode">판매중</option>
+                                    <option value="productName">단종</option>
+                                    <option value="productName">품절</option>
+                                </select>
+                                상품 검색하기
+                            </label>
+                        </div>
+                        <div></div>
+                    </div>
+                </form>
+            </div>
+
+
+
+            <div id="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>상품코드</th>
+                            <th>상품명</th>
+                            <th>카테고리</th>
+                            <th>가격</th>
+                            <th>누적판매량</th>
+                            <th>누적판매가격</th>
+                            <th>리뷰점수</th>
+                            <th>재고</th>
+                            <th>판매상태</th>
+                            <th>수정하기</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="#">PD29</a></td>
+                            <td>쫀득허브 닭가슴살</td>
+                            <td>닭가슴살</td>
+                            <td>4,500</td>
+                            <td>1,542개</td>
+                            <td>6,939,000원</td>
+                            <td>4.5</td>
+                            <td>453EA</td>
+                            <td>판매중</td>
+                            <td><a href="#!">수정</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">PD29</a></td>
+                            <td>쫀득허브 닭가슴살</td>
+                            <td>닭가슴살</td>
+                            <td>4,500</td>
+                            <td>1,542개</td>
+                            <td>6,939,000원</td>
+                            <td>4.5</td>
+                            <td>453EA</td>
+                            <td>판매중</td>
+                            <td><a href="#!">수정</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">PD29</a></td>
+                            <td>쫀득허브 닭가슴살</td>
+                            <td>닭가슴살</td>
+                            <td>4,500</td>
+                            <td>1,542개</td>
+                            <td>6,939,000원</td>
+                            <td>4.5</td>
+                            <td>453EA</td>
+                            <td>판매중</td>
+                            <td><a href="#!">수정</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">PD29</a></td>
+                            <td>쫀득허브 닭가슴살</td>
+                            <td>닭가슴살</td>
+                            <td>4,500</td>
+                            <td>1,542개</td>
+                            <td>6,939,000원</td>
+                            <td>4.5</td>
+                            <td>453EA</td>
+                            <td>판매중</td>
+                            <td><a href="#!">수정</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">PD29</a></td>
+                            <td>쫀득허브 닭가슴살</td>
+                            <td>닭가슴살</td>
+                            <td>4,500</td>
+                            <td>1,542개</td>
+                            <td>6,939,000원</td>
+                            <td>4.5</td>
+                            <td>453EA</td>
+                            <td>판매중</td>
+                            <td><a href="#!">수정</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">PD29</a></td>
+                            <td>쫀득허브 닭가슴살</td>
+                            <td>닭가슴살</td>
+                            <td>4,500</td>
+                            <td>1,542개</td>
+                            <td>6,939,000원</td>
+                            <td>4.5</td>
+                            <td>453EA</td>
+                            <td>판매중</td>
+                            <td><a href="#!">수정</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">PD29</a></td>
+                            <td>쫀득허브 닭가슴살</td>
+                            <td>닭가슴살</td>
+                            <td>4,500</td>
+                            <td>1,542개</td>
+                            <td>6,939,000원</td>
+                            <td>4.5</td>
+                            <td>453EA</td>
+                            <td>판매중</td>
+                            <td><a href="#!">수정</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">PD29</a></td>
+                            <td>쫀득허브 닭가슴살</td>
+                            <td>닭가슴살</td>
+                            <td>4,500</td>
+                            <td>1,542개</td>
+                            <td>6,939,000원</td>
+                            <td>4.5</td>
+                            <td>453EA</td>
+                            <td>판매중</td>
+                            <td><a href="#!">수정</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">PD29</a></td>
+                            <td>쫀득허브 닭가슴살</td>
+                            <td>닭가슴살</td>
+                            <td>4,500</td>
+                            <td>1,542개</td>
+                            <td>6,939,000원</td>
+                            <td>4.5</td>
+                            <td>453EA</td>
+                            <td>판매중</td>
+                            <td><a href="#!">수정</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">PD29</a></td>
+                            <td>쫀득허브 닭가슴살</td>
+                            <td>닭가슴살</td>
+                            <td>4,500</td>
+                            <td>1,542개</td>
+                            <td>6,939,000원</td>
+                            <td>4.5</td>
+                            <td>453EA</td>
+                            <td>판매중</td>
+                            <td><a href="#!">수정</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">PD29</a></td>
+                            <td>쫀득허브 닭가슴살</td>
+                            <td>닭가슴살</td>
+                            <td>4,500</td>
+                            <td>1,542개</td>
+                            <td>6,939,000원</td>
+                            <td>4.5</td>
+                            <td>453EA</td>
+                            <td>판매중</td>
+                            <td><a href="#!">수정</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">PD29</a></td>
+                            <td>쫀득허브 닭가슴살</td>
+                            <td>닭가슴살</td>
+                            <td>4,500</td>
+                            <td>1,542개</td>
+                            <td>6,939,000원</td>
+                            <td>4.5</td>
+                            <td>453EA</td>
+                            <td>판매중</td>
+                            <td><a href="#!">수정</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">PD29</a></td>
+                            <td>쫀득허브 닭가슴살</td>
+                            <td>닭가슴살</td>
+                            <td>4,500</td>
+                            <td>1,542개</td>
+                            <td>6,939,000원</td>
+                            <td>4.5</td>
+                            <td>453EA</td>
+                            <td>판매중</td>
+                            <td><a href="#!">수정</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">PD29</a></td>
+                            <td>쫀득허브 닭가슴살</td>
+                            <td>닭가슴살</td>
+                            <td>4,500</td>
+                            <td>1,542개</td>
+                            <td>6,939,000원</td>
+                            <td>4.5</td>
+                            <td>453EA</td>
+                            <td>판매중</td>
+                            <td><a href="#!">수정</a></td>
+                        </tr>
+                       
+                       
+                        
+                        
+                    </tbody>
+                </table>
+
+                <div id="paging">
+                    페이징
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="inc-footer">
+        <footer>
+            <div id="footer-top">
+                <ul>
+                    <li><a href="#!">고객센터</a></li>
+                    <li><a href="#!">이용약관</a></li>
+                    <li><a href="#!">개인정보처리방침</a></li>
+                </ul>
+            </div>
+            <div class="line_ccc"></div>
+            <div id="footer-bottom">
+                <div>고객센터 070-9999-8888</div>
+                <div>득근득근케어일기 | (주)득근득근 | 대표: 김득근 | 개인정보보호책임자: 왕근육 | E-mail: admin@deukgeun.com</div>
+                <div>서울특별시 강남구 근육로 3대 500, (득근빌딩)</div>
+                <div>사업자등록번호:100-01-11111 사업자정보 확인 > 통신판매업신고 </div>
+                <div>&copy; Deukgeun, Inc.</div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script>
+        
+        
+        
+        $(".user-normal-td").mouseover(function(){
+            this.innerHTML="정지하기";
+        });
+        $(".user-normal-td").mouseout(function(){
+            this.innerHTML="일반";
+        });
+
+        $(".user-stoped-td").mouseover(function(){
+            this.innerHTML="해제하기";
+        });
+        $(".user-stoped-td").mouseout(function(){
+            this.innerHTML="정지";
+        });
+
+        $(".btnReviewDel").mouseover(function(){
+            this.innerHTML="리뷰삭제";
+        });
+        $(".btnReviewDel").mouseout(function(){
+            this.innerHTML="정상";
+        });
+
+        $("#initialization").click(function(){
+            $("#search-form")[0].reset();
+        });
+        
+    </script>
+
+</body>
+</html>

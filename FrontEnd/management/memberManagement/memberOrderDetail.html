@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원상세조회(주문)</title>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/admin/memberOrderDetail.css">
+    <link rel="stylesheet" href="../../css/font.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <style>
+        #content{
+            width: 100%;
+            margin-top: 50px;
+            /* border: 1px solid black; */
+            /* box-sizing: border-box; */
+        }
+        #container{
+            width: 1000px;
+            margin: 0 auto;
+            /* border: 1px solid black; */
+            /* box-sizing: border-box; */
+        }
+        #inc-footer{
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <div id="inc-header">
+        <div class="header">
+            <form action="">
+                <header>
+                    <div id="logo"><a href="#"><img src="images/logo1.png" alt="로고"><span id="first">득근득근</span><br>케어일기</a></div>
+                    <div id="search"><input type="text" placeholder="검색하기"><a href="#!"><i class="fas fa-search" style="font-size:1.5rem; margin-left: 2.3rem;"></i></a></div>
+                    <div id="menu">
+                        <a href="#!">로그인 </a>&nbsp;|&nbsp; 
+                        <a href="#!">회원가입 </a>&nbsp;|&nbsp; 
+                        <a href="#!">주문조회 </a>&nbsp;|&nbsp; 
+                        <a href="#!">고객센터</a>
+                    </div>
+                </header>
+            </form>
+        </div>
+        <div class="line_ccc"></div>
+        <div class="nav">
+            <nav>
+                <div class="side">
+                    <a href="#!"><i class="fas fa-bars" style="margin-right: 1rem;"></i>전체 카테고리</a>
+                    <ul id="drop-category">
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                    </ul>
+                </div>
+                <div class="main-nav"><a href="#!">베스트</a></div>
+                <div class="main-nav"><a href="#!">신상품</a></div>
+                <div class="main-nav"><a href="#!">헬스케어</a></div>
+                <div class="main-nav"><a href="#!">득근영상</a></div>
+                <div class="side">
+                    <div><a href="#!"><i class="fas fa-user-circle"></i></a></div>
+                    <div><a href="#!"><i class="fas fa-shopping-cart"></i></a></div>
+                </div>
+            </nav>
+        </div>
+        <div class="line_black"></div>
+    </div>
+    <!-- location -->
+    <div id="inc-location">
+        <div>회원 상세 조회</div>
+        <div>
+            관리자모드
+            <i class="fas fa-angle-right"></i>
+            회원통합관리
+            <i class="fas fa-angle-right"></i>
+            회원상세조회
+        </div>
+    </div>
+    <!-- content  -->
+    <div id="content">
+        <div id="container">
+            
+                
+                <!-- 회원정보 -->
+                <div id="user-info">
+                        <div id="title">'asdf1234'님의 상세정보입니다. </div>
+                        <div>
+                            <div id="left">
+                                <div id="row1">
+                                    <div>
+                                        <div class="subtitle">계정정보<div class="line"></div></div>
+                                        <div class="account-info">
+                                            <div>아이디:</div>
+                                            <div>asdf1234</div>
+                                        </div>
+                                        <div class="account-info">
+                                            <div>패스워드:</div>
+                                            <div>asfas125152</div>
+                                        </div>
+                                        <div class="account-info">
+                                            <div>계정상태:</div>
+                                            <div>일반</div>
+                                    </div>
+                                    <div class="account-info">
+                                        <div>가입일:</div>
+                                        <div>2018-06-24</div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="subtitle">개인정보<div class="line"></div></div>
+                                    <div class="account-info">
+                                        <div>이름:</div>
+                                        <div>이영은</div>
+                                    </div>
+                                    <div class="account-info">
+                                        <div>생년월일:</div>
+                                        <div>1998-02-23</div>
+                                    </div>
+                                    <div class="account-info">
+                                        <div>성별:</div>
+                                        <div>여자</div>
+                                    </div>
+                                    <div class="account-info">
+                                        <div>연락처:</div>
+                                        <div>010-1564-5564</div>
+                                    </div>
+                                    <div class="account-info">
+                                        <div>이메일:</div>
+                                        <div>zzoo11@naver.com</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="row2">
+                                <div>
+                                    <div class="subtitle">주소정보<div class="line"></div></div>
+                                </div>
+                                <div class="account-info">
+                                    <div>우편번호:</div>
+                                    <div>18315</div>
+                                </div><div class="account-info">
+                                    <div>주소:</div>
+                                    <div>강원 강릉시 초당동 344-1</div>
+                                </div><div class="account-info">
+                                    <div>상세주소:</div>
+                                    <div>OO아파트 5층 502호</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="right">
+                            <div class="subtitle"><div class="line"></div>기타정보<div class="line"></div></div>
+                            <div class="account-info">
+                                <div>현재 마일리지:</div>
+                                <div>1,234</div>
+                            </div>
+                            <div class="account-info">
+                                <div>사용 마일리지:</div>
+                                <div>123,554</div>
+                            </div>
+                            <div class="line"></div>
+                            <div class="account-info">
+                                <div>총 적립 마일리지:</div>
+                                <div>124,788</div>
+                            </div>
+                            <div class="account-info">
+                                <div>주문건수:</div>
+                                <div>12건</div>
+                            </div>
+                            <div class="account-info">
+                                <div>주문금액:</div>
+                                <div>1,204,000원</div>
+                            </div>
+                            <div class="account-info">
+                                <div>남긴 리뷰 수:</div>
+                                <div>23회</div>
+                            </div>
+                            <div class="account-info">
+                                <div>남긴 문의 수:</div>
+                                <div>5회</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 내역 -->
+                <div id="user-recode">
+                    <div id="recode-menu">
+                        <div id="now-menu" onclick="location.href='';">회원 주문내역</div>
+                        <div class="not-menu" onclick="location.href='';">회원 문의내역</div>
+                        <div class="not-menu" onclick="location.href='';">회원 리뷰내역</div>
+                    </div>
+                    <div>
+                        <table id="table">
+                            <thead>
+                                <tr>
+                                    <th>주문코드</th>
+                                    <th>수취인</th>
+                                    <th>연락처</th>
+                                    <th>배송지</th>
+                                    <th>배송물품</th>
+                                    <th>주문현황</th>
+                                    <th>주문일</th>
+                                    <th>가격</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="#">OD420</a></td>
+                                    <td>박우정</td>
+                                    <td>010-6565-1052</td>
+                                    <td>
+                                        [12345]<br>
+                                        경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4<br>
+                                        OO아파트 205동 2004호
+                                    </td>
+                                    <td>
+                                        쫀득허브 닭가슴살 5EA<br>
+                                        얼얼고추 닭가슴살 10EA<br>
+                                        불끈 단백질 쉐이크 1EA
+                                    </td>
+                                    <td>결제완료</td>
+                                    <td>
+                                        2021-12-29<br>
+                                        23:02
+                                    </td>
+                                    <td>
+                                        105,300원
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">OD311</a></td>
+                                    <td>이현우</td>
+                                    <td>010-2234-8232</td>
+                                    <td>
+                                        [12345]<br>
+                                        강원 강릉시 난설헌로 203-18<br>
+                                        OO아파트 205동 2004호
+                                    </td>
+                                    <td>
+                                        종합비타민 2EA<br>
+                                        칼슘보조제 2EA
+                                    </td>
+                                    <td>배송 대기중</td>
+                                    <td>
+                                        2021-12-29<br>
+                                        23:02
+                                    </td>
+                                    <td>
+                                        105,300원
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">OD311</a></td>
+                                    <td>이현우</td>
+                                    <td>010-2234-8232</td>
+                                    <td>
+                                        [12345]<br>
+                                        강원 강릉시 난설헌로 203-18<br>
+                                        OO아파트 205동 2004호
+                                    </td>
+                                    <td>
+                                        종합비타민 2EA<br>
+                                        칼슘보조제 2EA
+                                    </td>
+                                    <td>배송 대기중</td>
+                                    <td>
+                                        2021-12-29<br>
+                                        23:02
+                                    </td>
+                                    <td>
+                                        105,300원
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">OD311</a></td>
+                                    <td>이현우</td>
+                                    <td>010-2234-8232</td>
+                                    <td>
+                                        [12345]<br>
+                                        강원 강릉시 난설헌로 203-18<br>
+                                        OO아파트 205동 2004호
+                                    </td>
+                                    <td>
+                                        종합비타민 2EA<br>
+                                        칼슘보조제 2EA
+                                    </td>
+                                    <td>배송 대기중</td>
+                                    <td>
+                                        2021-12-29<br>
+                                        23:02
+                                    </td>
+                                    <td>
+                                        105,300원
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                    <!-- 페이징 -->
+                    <div id="paging">페이지</div>
+                </div>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="inc-footer">
+        <footer>
+            <div id="footer-top">
+                <ul>
+                    <li><a href="#!">고객센터</a></li>
+                    <li><a href="#!">이용약관</a></li>
+                    <li><a href="#!">개인정보처리방침</a></li>
+                </ul>
+            </div>
+            <div class="line_ccc"></div>
+            <div id="footer-bottom">
+                <div>고객센터 070-9999-8888</div>
+                <div>득근득근케어일기 | (주)득근득근 | 대표: 김득근 | 개인정보보호책임자: 왕근육 | E-mail: admin@deukgeun.com</div>
+                <div>서울특별시 강남구 근육로 3대 500, (득근빌딩)</div>
+                <div>사업자등록번호:100-01-11111 사업자정보 확인 > 통신판매업신고 </div>
+                <div>&copy; Deukgeun, Inc.</div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+    <script>
+
+    </script>
+</body>
+</html>

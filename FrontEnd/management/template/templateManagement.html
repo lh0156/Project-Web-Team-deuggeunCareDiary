@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>템플릿</title>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/admin/templateManagement.css">
+    <link rel="stylesheet" href="../../css/font.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <script src="../js/jquery-1.12.4.js"></script>
+    <style>
+        #content{
+            width: 100%;
+            /* border: 1px solid black; */
+            /* box-sizing: border-box; */
+        }
+        #container{
+            width: 1000px;
+            margin: 0 auto;
+            margin-top: 30px;
+            margin-bottom: 200px;
+            /* border: 1px solid black; */
+            /* box-sizing: border-box; */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <div id="inc-header">
+        <div class="header">
+            <form action="">
+                <header>
+                    <div id="logo"><a href="#"><img src="images/logo1.png" alt="로고"><span id="first">득근득근</span><br>케어일기</a></div>
+                    <div id="search"><input type="text" placeholder="검색하기"><a href="#!"><i class="fas fa-search" style="font-size:1.5rem; margin-left: 2.3rem;"></i></a></div>
+                    <div id="menu">
+                        <a href="#!">로그인 </a>&nbsp;|&nbsp; 
+                        <a href="#!">회원가입 </a>&nbsp;|&nbsp; 
+                        <a href="#!">주문조회 </a>&nbsp;|&nbsp; 
+                        <a href="#!">고객센터</a>
+                    </div>
+                </header>
+            </form>
+        </div>
+        <div class="line_ccc"></div>
+        <div class="nav">
+            <nav>
+                <div class="side">
+                    <a href="#!"><i class="fas fa-bars" style="margin-right: 1rem;"></i>전체 카테고리</a>
+                    <ul id="drop-category">
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                        <li onclick="location.href='';">메뉴1</li>
+                    </ul>
+                </div>
+                <div class="main-nav"><a href="#!">베스트</a></div>
+                <div class="main-nav"><a href="#!">신상품</a></div>
+                <div class="main-nav"><a href="#!">헬스케어</a></div>
+                <div class="main-nav"><a href="#!">득근영상</a></div>
+                <div class="side">
+                    <div><a href="#!"><i class="fas fa-user-circle"></i></a></div>
+                    <div><a href="#!"><i class="fas fa-shopping-cart"></i></a></div>
+                </div>
+            </nav>
+        </div>
+        <div class="line_black"></div>
+    </div>
+    <!-- location -->
+    <div id="inc-location">
+        <div>템플릿</div>
+        <div>
+            관리자모드
+            <i class="fas fa-angle-right"></i>
+        </div>
+    </div>
+    <!-- content  -->
+    <div id="content">
+        <div id="container">
+
+            <div id="search-tool">
+                <form id="search-form">
+                    <div id="row1" class="search-row">
+                        <div>
+                            <select name="column-name" id="search-category">
+                                <option value="userId">아이디</option>
+                                <option value="userName">이름</option>
+                                <option value="userTel">연락처</option>
+                                <option value="userAddress">주소</option>
+                            </select>
+                            <input type="text" name="query" placeholder="검색하기" autofocus>
+                        </div>
+                        <div class="search-button">
+                            <input type="submit" value="검색하기">
+                        </div>
+                    </div>
+                    <div id="row2" class="search-row">
+                        <div>
+                            <label><input type="checkbox" name="user-acrt" value="accurate">정확히 일치하는 정보 조회하기</label>
+                            <label><input type="radio" name="user-type" value="all" checked>전체 유저 조회</label>
+                        </div>
+                        <div class="search-button">
+                            <button type="button" id="initialization">조건초기화</button>
+                        </div>
+                    </div>
+                    <div id="row3" class="search-row">
+                        <div>
+                            <label><input type="radio" name="user-type" value="accurate">정지 유저 조회</label>
+                            <label><input type="radio" name="user-type" value="stopuser">일반 유저 조회</label>
+                        </div>
+                        <div></div>
+                    </div>
+                </form>
+            </div>
+
+
+
+            <div id="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>아이디</th>
+                            <th>패스워드</th>
+                            <th>이름</th>
+                            <th>연락처</th>
+                            <th>주소</th>
+                            <th>주문/배송확인</th>
+                            <th>정지여부</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-stoped-td"><a href="#!">정지</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-stoped-td"><a href="#!">정지</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-normal-td"><a href="#!">일반</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-stoped-td"><a href="#!">정지</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-normal-td"><a href="#!">일반</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-stoped-td"><a href="#!">정지</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-normal-td"><a href="#!">일반</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-stoped-td"><a href="#!">정지</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-normal-td"><a href="#!">일반</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-stoped-td"><a href="#!">정지</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-normal-td"><a href="#!">일반</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-stoped-td"><a href="#!">정지</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-normal-td"><a href="#!">일반</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-stoped-td"><a href="#!">정지</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-normal-td"><a href="#!">일반</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-stoped-td"><a href="#!">정지</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-normal-td"><a href="#!">일반</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-stoped-td"><a href="#!">정지</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">asdf1244</a></td>
+                            <td>asd123123@@</td>
+                            <td>김공공</td>
+                            <td>010-3434-5656</td>
+                            <td>[12345] 경기도 부천시 땡땡동 댕댕읍 땡땡대로 125-4</td>
+                            <td><a href="#!">주문조회</a></td>
+                            <td class="user-normal-td"><a href="#!">일반</a></td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+
+                <div id="paging">
+                    페이징
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="inc-footer">
+        <footer>
+            <div id="footer-top">
+                <ul>
+                    <li><a href="#!">고객센터</a></li>
+                    <li><a href="#!">이용약관</a></li>
+                    <li><a href="#!">개인정보처리방침</a></li>
+                </ul>
+            </div>
+            <div class="line_ccc"></div>
+            <div id="footer-bottom">
+                <div>고객센터 070-9999-8888</div>
+                <div>득근득근케어일기 | (주)득근득근 | 대표: 김득근 | 개인정보보호책임자: 왕근육 | E-mail: admin@deukgeun.com</div>
+                <div>서울특별시 강남구 근육로 3대 500, (득근빌딩)</div>
+                <div>사업자등록번호:100-01-11111 사업자정보 확인 > 통신판매업신고 </div>
+                <div>&copy; Deukgeun, Inc.</div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script>
+
+        $(".user-normal-td a").mouseover(function(){
+            this.innerHTML="정지하기";
+        });
+        $(".user-normal-td a").mouseout(function(){
+            this.innerHTML="일반";
+        });
+        $(".user-stoped-td a").mouseover(function(){
+            this.innerHTML="정지해제";
+        });
+        $(".user-stoped-td a").mouseout(function(){
+            this.innerHTML="정지";
+        });
+
+        $("#initialization").click(function(){
+            $("#search-form")[0].reset();
+        });
+    </script>
+
+</body>
+</html>
