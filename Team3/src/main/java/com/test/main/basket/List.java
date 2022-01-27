@@ -20,8 +20,7 @@ public class List extends HttpServlet {
 		//지금은 임시로 memberSeq로 해놓았지만 아이디로 교체도 쌉가능할듯
 		//String id = req.getParameter("id");
 		
-		
-		String memberSeq = "MB4";
+		String memberSeq = "MB2";
 		
 		BasketDAO dao = new BasketDAO();
 		ArrayList<BasketDTO> list = new ArrayList<BasketDTO>();
@@ -38,8 +37,10 @@ public class List extends HttpServlet {
 		}
 		
 		req.setAttribute("list", list);
-		req.setAttribute("allPrice", allPrice);
-		req.setAttribute("productCount", productCount);
+		req.setAttribute("allPrice", allPrice); //총액을 표시하기 위함
+		req.setAttribute("productCount", productCount); //n개를 표시하기 위함
+		req.setAttribute("memberSeq", memberSeq);
+		
 		
 		RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/views/basket/list.jsp");
 		dispatcher.forward(req, resp);

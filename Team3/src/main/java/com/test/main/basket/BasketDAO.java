@@ -33,9 +33,11 @@ public class BasketDAO {
 	public ArrayList<BasketDTO> basketList(String memberSeq) {
 
 		try {
-			String sql = "select b.score as count, p.productname as productName, p.price as price, pu.imgurl as url, m.name as name, m.id as id"
-					+ "    from tblbasket b" + "        inner join  tblproduct p"
-					+ "            on b.productseq = p.productseq" + "                inner join tblproducturl pu"
+			String sql = "select b.basketseq as basketseq, b.score as count, p.productname as productName, p.price as price, pu.imgurl as url, m.name as name, m.id as id"
+					+ "    from tblbasket b"
+					+ "        inner join  tblproduct p"
+					+ "            on b.productseq = p.productseq"
+					+ "                inner join tblproducturl pu"
 					+ "                    on p.productseq = pu.productseq"
 					+ "                        inner join tblmember m "
 					+ "                            on b.memberseq = m.memberseq"
@@ -69,7 +71,8 @@ public class BasketDAO {
 				dto.setName(rs.getString("name"));
 				dto.setUrl(rs.getString("url"));
 				dto.setId(rs.getString("id"));
-
+				dto.setBasketseq(rs.getString("basketseq"));
+				
 				result.add(dto);
 			}
 
@@ -81,5 +84,51 @@ public class BasketDAO {
 		}
 
 		return null;
+	}
+
+	public int delBasket(String[] basketseq) {
+		
+		
+		try {
+			
+			int result = 0;
+			
+			for(int i=0; i<basketseq.length; ++i) {
+				String sql = "delete from tblbasket where basketseq = ?";
+				
+				pstat = conn.prepareStatement(sql);
+
+				pstat.setString(1, basketseq[i]);
+				pstat.executeUpdate();
+				result++;
+				
+			}
+			
+			return result;
+		} catch (Exception e) {
+			System.out.println("BasketDAO.delBasket()");
+			e.printStackTrace();
+		}
+		return 0;
+	}
+
+	public int addBasket(String count, String productseq) {
+		
+		try {
+			String sql = "insert into tblBasket values('BS'||basket_seq.nextVal, 'MB2', ?, ?);";
+			
+			pstat = conn.prepareStatement(sql);
+
+			pstat.setString(1, productseq);
+			pstat.setString(2, count);
+			
+			return pstat.executeUpdate();
+			
+		} catch (Exception e) {
+			System.out.println("BasketDAO.addBasket()");
+			e.printStackTrace();
+		}
+		
+		return 0;
 	}
 }

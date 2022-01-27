@@ -61,39 +61,47 @@
 				<th>상품 금액</th>
 			</tr>
 
-			<c:forEach items="${list}" var="dto">
-				<tr class="basketProduct">
-					<!-- 2행 1열-->
-					<td><input type="checkbox" class="check" name="check"></td>
-					<!-- 2행 2열-->
-					<td class="productImgBox"><img src="${dto.url}"
-						class="productImg"></td>
-					<!-- 2행 3열-->
-					<td class="productInfo">
-						<div class="productName">${dto.productName}</div>
+			<!-- 액션값도 태그의 속성이므로 자바스크립트로 건들 수 있다 -->
 
-						<div class="productCount">
-							<di class="productNumber" style="color: #666;">
-							${dto.count}개</di>
+			<form method="GET" action="/team3/basket/del.do" id="get">
+				<c:forEach items="${list}" var="dto">
+					<tr class="basketProduct">
+						<!-- 2행 1열-->
+						<td><input type="checkbox" class="check" name="basketseq"
+							value="${dto.basketseq}"></td>
 
-							<div class="productCountEdit">
-								<input type='button' onclick='count("minus")' value='-' />
 
-								<div id="result">1</div>
+						<!-- 2행 2열-->
+						<td class="productImgBox"><img src="${dto.url}"
+							class="productImg"></td>
+						<!-- 2행 3열-->
+						<td class="productInfo">
+							<div class="productName">${dto.productName}</div>
 
-								<input type='button' onclick='count("plus")' value='+' />
+							<div class="productCount">
+								<div class="productNumber" style="color: #666;">
+									${dto.count}개</div>
+
+								<div class="productCountEdit">
+									<input type='button' onclick='count("minus")' value='-' />
+
+									<div id="result">1개</div>
+
+									<input type='button' onclick='count("plus")' value='+' />
+								</div>
 							</div>
-						</div>
-					</td>
+						</td>
 
-					<td class="productPrice">
-						<div id="resultPrice" class="price">
-							<fmt:formatNumber value="${dto.price}" pattern="#,###" />
-							원
-						</div>
-					</td>
-				</tr>
-			</c:forEach>
+						<td class="productPrice">
+							<div id="resultPrice" class="price">
+								<fmt:formatNumber value="${dto.price}" pattern="#,###" />원
+							</div>
+						</td>
+					</tr>
+
+
+
+				</c:forEach>
 		</table>
 
 
@@ -101,10 +109,12 @@
 
 
 		<div class="delList">
-			<input type="button" class="del" value="선택삭제" onClick="delRow();"
+			<input type="submit" class="del" value="선택삭제" onClick="delRow();"
 				style="cursor: pointer;">
 			<div class="coment">장바구니에 담긴 상품은 최대 15일까지 저장됩니다.</div>
 		</div>
+		</form>
+
 
 
 
@@ -116,7 +126,8 @@
 
 							<div>상품금액</div>
 							<div id=resultPrice>
-								<fmt:formatNumber value="${allPrice}" pattern="#,###" />원
+								<fmt:formatNumber value="${allPrice}" pattern="#,###" />
+								원
 							</div>
 						</li>
 						<li><i class="fas fa-plus"></i></li>
@@ -128,7 +139,8 @@
 						<li>
 							<div>결제 예상금액</div>
 							<div>
-								<fmt:formatNumber value="${allPrice}" pattern="#,###" />원
+								<fmt:formatNumber value="${allPrice}" pattern="#,###" />
+								원
 							</div>
 						</li>
 					</ul>
@@ -137,14 +149,19 @@
 
 			<div class="buttonList">
 				<!-- 메인 화면(Main)으로-->
-				<form method="POST" action="/team3/pay/pay.do">
-					<input type="button" value="쇼핑 계속하기" class="shopping"
-						style="cursor: pointer;" onClick="location.href='product.html'">
-					<!-- 결제 창(Pay)으로-->
-					<input type="button" value="주문하기" class="order"
-						style="cursor: pointer;"
-						onClick="location.href='/WEB-INF/views/pay/pay.jsp'">
-				</form>
+
+
+				<input type="button" value="쇼핑 계속하기" class="shopping"
+					style="cursor: pointer;" onClick="location.href='product.html'">
+				<!-- 결제 창(Pay)으로-->
+				<input type="button" value="주문하기" class="order" id="order"
+					style="cursor: pointer;">
+
+
+
+
+
+
 			</div>
 		</div>
 	</div>
@@ -164,54 +181,52 @@
 	src="https://cdn.iamport.kr/js/iamport.payment-1.2.0.js"></script>
 
 <script>
+	$('#order').click(function() {
+		$("#get").attr("action", "/team3/pay/pay.do");
+		$('#get').submit();
+	});
 
-    	
-		
+	$('.checkAll').click(function() {
+		if ($('.checkAll').is(':checked')) {
+			$('.check').prop('checked', true);
+		} else {
+			$('.check').prop('checked', false);
 
-        $('.checkAll').click(function () {
-            if ($('.checkAll').is(':checked')) {
-                $('.check').prop('checked', true);
-            } else {
-                $('.check').prop('checked', false);
+		}
+	});
 
-            }
-        });
+	function count(type) {
+		// 결과를 표시할 element
+		const resultElement = document.getElementById('result');
+		const resultPriceElement = document.getElementById('resultPrice');
+		// 현재 화면에 표시된 값
+		let number = resultElement.innerText;// 상품 갯수
+		let resultPrice = resultElement.innerText;// 총 가격
 
+		// 더하기/빼기
+		if (type === 'plus') {
+			number = parseInt(number) + 1;
 
+		} else if (type === 'minus' && number != 1) {
 
-        function count(type) {
-            // 결과를 표시할 element
-            const resultElement = document.getElementById('result');
-            const resultPriceElement = document.getElementById('resultPrice');
-            // 현재 화면에 표시된 값
-            let number = resultElement.innerText;// 상품 갯수
-            let resultPrice = resultElement.innerText;// 총 가격
+			number = parseInt(number) - 1;
 
-            // 더하기/빼기
-            if (type === 'plus') {
-                number = parseInt(number) + 1;
+		}
 
-            } else if (type === 'minus' && number != 1) {
+		// 결과 출력
+		resultElement.innerText = number;
+	}
 
-                number = parseInt(number) - 1;
+	//님 뭐임??
+	function delRow() {
+		// jquery를 사용한 방법
+		var checkRows = $("[name='chkbox']:checked");
+		for (var i = checkRows.length - 1; i > -1; i--) {
 
-            }
-
-            // 결과 출력
-            resultElement.innerText = number;
-        }
-
-        function delRow() {
-            // jquery를 사용한 방법
-            var checkRows = $("[name='chkbox']:checked");
-            for (var i = checkRows.length - 1; i > -1; i--) {
-
-                checkRows.eq(i).closest('tr').remove();
-            }
-        }
-
-
-    </script>
+			checkRows.eq(i).closest('tr').remove();
+		}
+	}
+</script>
 </body>
 
 </html>

@@ -2,12 +2,29 @@ package com.test.main.basket;
 
 public class BasketDTO {
 	private String id;
-	private int count;
+	private int count; //묶음 갯수
 	private String productName;
 	private int price;
 	private String url;
 	private String name;
 	
+	private String basketseq;
+	private int number;
+	
+
+
+	public int getNumber() {
+		return number;
+	}
+	public void setNumber(int number) {
+		this.number = number;
+	}
+	public String getBasketseq() {
+		return basketseq;
+	}
+	public void setBasketseq(String basketseq) {
+		this.basketseq = basketseq;
+	}
 	public String getId() {
 		return id;
 	}
