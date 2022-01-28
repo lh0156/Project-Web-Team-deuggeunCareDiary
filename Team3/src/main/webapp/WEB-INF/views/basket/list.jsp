@@ -152,7 +152,7 @@
 
 
 				<input type="button" value="쇼핑 계속하기" class="shopping"
-					style="cursor: pointer;" onClick="location.href='product.html'">
+					style="cursor: pointer;" onClick="history.back()">
 				<!-- 결제 창(Pay)으로-->
 				<input type="button" value="주문하기" class="order" id="order"
 					style="cursor: pointer;">

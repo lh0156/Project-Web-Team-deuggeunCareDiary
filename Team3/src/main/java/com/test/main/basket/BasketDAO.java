@@ -112,15 +112,17 @@ public class BasketDAO {
 		return 0;
 	}
 
-	public int addBasket(String count, String productseq) {
+	public int addBasket(String count, String productseq, String memberseq) {
 		
 		try {
-			String sql = "insert into tblBasket values('BS'||basket_seq.nextVal, 'MB2', ?, ?);";
+			
+			String sql = "insert into tblBasket values('BS'||basket_seq.nextVal, ?, ?, ?)";
 			
 			pstat = conn.prepareStatement(sql);
 
-			pstat.setString(1, productseq);
-			pstat.setString(2, count);
+			pstat.setString(1, memberseq);
+			pstat.setString(2, productseq);
+			pstat.setString(3, count);
 			
 			return pstat.executeUpdate();
 			
@@ -131,4 +133,30 @@ public class BasketDAO {
 		
 		return 0;
 	}
+
+	public String getMemberSeq(String id) {
+
+		try {
+			
+			String sql = "select Memberseq from tblmember where id = ?";
+			
+			pstat = conn.prepareStatement(sql);
+
+			pstat.setString(1, id);
+			
+			rs = pstat.executeQuery();
+			
+			if(rs.next()) {
+				return rs.getString("Memberseq");
+			}
+			
+		} catch (Exception e) {
+			System.out.println("BasketDAO.getMemberSeq()");
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+	
+	
 }

@@ -2,6 +2,7 @@ package com.test.main.product;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -15,20 +16,36 @@ public class ProductList extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		
-			ArrayList<ProductDTO> dto = new ArrayList<ProductDTO>();
-			
-			ArrayList<ProductDTO> dtoScore = new ArrayList<ProductDTO>(); //review점수
-			
-			ProductDAO dao = new ProductDAO();
-			
-			dto = dao.getProduct();
-			
-			dtoScore = dao.getProductReivewScore();
-		
-			req.setAttribute("list", dto);
-			req.setAttribute("listScore", dtoScore);
-			
+
+		String searchkeyword = req.getParameter("searchkeyword");
+
+		String search = "n";
+
+		if (searchkeyword == null) {
+			search = "n";
+
+		} else {
+			search = "y";
+		}
+
+		HashMap<String, String> map = new HashMap<String, String>();
+
+		map.put("searchkeyword", searchkeyword);
+		map.put("search", search);
+
+		ArrayList<ProductDTO> dto = new ArrayList<ProductDTO>();
+
+		ArrayList<ProductDTO> dtoScore = new ArrayList<ProductDTO>(); // review점수
+
+		ProductDAO dao = new ProductDAO();
+
+		dto = dao.getProduct(map);
+
+		dtoScore = dao.getProductReivewScore();
+
+		req.setAttribute("list", dto);
+		req.setAttribute("listScore", dtoScore);
+
 		RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/views/product/productlist.jsp");
 		dispatcher.forward(req, resp);
 	}

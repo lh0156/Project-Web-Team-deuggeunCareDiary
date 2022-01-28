@@ -148,6 +148,7 @@
                                 <input type="submit" value="장바구니" class="itemOptionCartBtn">
                                 </span>
                                 <input type="hidden" name="productseq" value="${dto.productseq}">
+                                <input type="hidden" name="productseq" value="${dto.productseq}">
                                 
                                 
                             </form>

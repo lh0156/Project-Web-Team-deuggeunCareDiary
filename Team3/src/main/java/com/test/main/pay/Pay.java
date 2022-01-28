@@ -30,10 +30,6 @@ public class Pay extends HttpServlet {
 		int allPrice = 0;
 		int productCount = list.size();
 		
-		System.out.println(productCount);
-		
-		
-		
 		for(PayDTO dto : list) {
 			allPrice += dto.getPrice();
 		}

@@ -32,7 +32,7 @@ public class ProductDAO {
 	}
 
 
-public ArrayList<ProductDTO> getProduct() {
+	public ArrayList<ProductDTO> getProduct(HashMap<String, String> map) {
 	 	//ArrayList로 안해두면 상품 하나만 반환하므로 ArrayList처리.
 	try {
 		
@@ -46,9 +46,27 @@ public ArrayList<ProductDTO> getProduct() {
 				+ "INNER JOIN tblproducturl PD "
 				+ " ON P.productseq = PD.productseq "
 				+ "INNER JOIN tbleachorder EO "
-				+ "ON P.productseq = EO.productseq "
-				+ "order by P.productseq ";
+				+ "ON P.productseq = EO.productseq ";
+				
 		
+		String order = "order by P.productseq ";
+		
+		
+		
+		String where = "";
+	
+		if(map.get("search").equals("y"))  {
+		
+			where = String.format("where productname like '%%%s%%' ", map.get("searchkeyword"));
+			
+			sql = sql +  where + order;
+		} else {
+			sql = sql + order;
+		}
+		
+		
+		
+	
 		pstat=conn.prepareStatement(sql); //오라클과 연결한다
 		
 		//pstat.setString(n, 값); -> ?이 들어간 부분을 %s처럼 채워준다
@@ -83,7 +101,6 @@ public ArrayList<ProductDTO> getProduct() {
 	}
 	return null;
 }
-
 
 
 			public ArrayList<ProductDTO> getProductReivewScore() {
