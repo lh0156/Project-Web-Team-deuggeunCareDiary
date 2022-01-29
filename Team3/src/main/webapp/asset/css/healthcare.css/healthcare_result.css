@@ -71,12 +71,12 @@
   margin-top: 40px;
 }
 
-#kal > input[type="number"] {
+#kal > input[type="text"] {
   width: 50%;
   height: 35px;
 }
 
-input[type="number"] {
+input[type="text"] {
   width: 150px;
   height: 35px;
   font-size: 15px;

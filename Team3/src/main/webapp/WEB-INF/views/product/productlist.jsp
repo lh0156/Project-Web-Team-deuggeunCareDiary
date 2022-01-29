@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> 
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 
 
 <!DOCTYPE html>
@@ -36,21 +35,94 @@
 	<%@include file="/WEB-INF/views/inc/header.jsp"%>
 
 	<!-- content -->
+	
+	
+	
+              
+	
 
-	<div id="inc-location">
-		<div>닭가슴살</div>
-		<div>
-			<a href="/Users/template/project3jo/html/chickenBreast.html"
-				id="nowpage">닭가슴살</a> <a
-				href="/Users/template/project3jo/html/lunchBox.html">도시락</a> <a
-				href="/Users/template/project3jo/html/vegetable.html">야채류</a> <a
-				href="/Users/template/project3jo/html/protein.html">단백질보충제</a> <a
-				href="/Users/template/project3jo/htmlnutrients.html">기타영양제</a>
-		</div>
-	</div>
+	<c:choose>
+         <c:when test="${empty category}">
+            <div id="inc-location">
+            <div>닭가슴살</div>
+            <div>
+               <a onclick="location.href='productlist.do?category=닭가슴살';" id="nowpage">닭가슴살</a>
+                   <a onclick="location.href='productlist.do?category=도시락';">도시락</a>
+                   <a onclick="location.href='productlist.do?category=야채류';">야채류</a>
+                   <a onclick="location.href='productlist.do?category=단백질보충제';">단백질보충제</a>
+                   <a onclick="location.href='productlist.do?category=기타영양제';">기타영양제</a>
+            </div>
+            </div>
+         </c:when>
+         
+         <c:when test="${category eq '닭가슴살'}">
+            <div id="inc-location">
+            <div>닭가슴살</div>
+            <div>
+               <a onclick="location.href='productlist.do?category=닭가슴살';" id="nowpage">닭가슴살</a>
+                   <a onclick="location.href='productlist.do?category=도시락';">도시락</a>
+                   <a onclick="location.href='productlist.do?category=야채류';">야채류</a>
+                   <a onclick="location.href='productlist.do?category=단백질보충제';">단백질보충제</a>
+                   <a onclick="location.href='productlist.do?category=기타영양제';">기타영양제</a>
+            </div>
+            </div>
+         </c:when>
+         
+      
+         <c:when test="${category eq '도시락'}">
+            <div id="inc-location">
+            <div>도시락</div>
+            <div>
+               <a onclick="location.href='productlist.do?category=닭가슴살';">닭가슴살</a>
+                   <a onclick="location.href='productlist.do?category=도시락';" id="nowpage">도시락</a>
+                   <a onclick="location.href='productlist.do?category=야채류';">야채류</a>
+                   <a onclick="location.href='productlist.do?category=단백질보충제';">단백질보충제</a>
+                   <a onclick="location.href='productlist.do?category=기타영양제';">기타영양제</a>
+            </div>
+            </div>
+         </c:when>
+            
+         <c:when test="${category eq '야채류'}">
+            <div id="inc-location">
+            <div>야채류</div>
+            <div>
+               <a onclick="location.href='productlist.do?category=닭가슴살';">닭가슴살</a>
+                   <a onclick="location.href='productlist.do?category=도시락';">도시락</a>
+                   <a onclick="location.href='productlist.do?category=야채류';" id="nowpage">야채류</a>
+                   <a onclick="location.href='productlist.do?category=단백질보충제';">단백질보충제</a>
+                   <a onclick="location.href='productlist.do?category=기타영양제';">기타영양제</a>
+            </div>
+            </div>
+         </c:when>
+         <c:when test="${category eq '단백질보충제'}">
+            <div id="inc-location">
+            <div>단백질보충제</div>
+            <div>
+               <a onclick="location.href='productlist.do?category=닭가슴살';">닭가슴살</a>
+                   <a onclick="location.href='productlist.do?category=도시락';">도시락</a>
+                   <a onclick="location.href='productlist.do?category=야채류';">야채류</a>
+                   <a onclick="location.href='productlist.do?category=단백질보충제';" id="nowpage">단백질보충제</a>
+                   <a onclick="location.href='productlist.do?category=기타영양제';">기타영양제</a>
+            </div>
+            </div>
+         </c:when>
+         <c:when test="${category eq '기타영양제'}">
+            <div id="inc-location">
+            <div>기타영양제</div>
+            <div>
+               <a onclick="location.href='productlist.do?category=닭가슴살';">닭가슴살</a>
+                   <a onclick="location.href='productlist.do?category=도시락';">도시락</a>
+                   <a onclick="location.href='productlist.do?category=야채류';">야채류</a>
+                   <a onclick="location.href='productlist.do?category=단백질보충제';">단백질보충제</a>
+                   <a onclick="location.href='productlist.do?category=기타영양제';" id="nowpage">기타영양제</a>
+            </div>
+            </div>
+         </c:when>
+      
+      </c:choose>
 
 	<div id="product-num">
-		20개의 상품이 있습니다.
+		${count}개의 상품이 있습니다.
 		<form>
 			<select class="menu-list">
 				<option value="none" selected>선택하세요</option>
@@ -59,7 +131,6 @@
 				<option value="추천순">추천순</option>
 			</select>
 		</form>
-
 	</div>
 
 	<!-- chickenBreast list -->
@@ -70,10 +141,7 @@
 			<div class="product-box cell">
 				<div class="item_box_img_area">
 				
-
-
-				
-				
+			
 				<a href="/team3/product/productdetail.do?productseq=${dto.productseq}"><img src="${dto.producturl}"></a>
 				</div>
 			
@@ -93,11 +161,12 @@
 					<div class="name">${dto.productname}</div>
 					<br>
 					<div class="price">
-						<fmt:formatNumber value="${dto.price}" pattern="#,###" /> <span>원</span>
+						${dto.price} <span>원</span>
 					</div>
 				</div>
 				
 			</div>
+		
 		</c:forEach>
 
 		<div style="clear:both;"></div>

@@ -51,7 +51,7 @@
       </div>
       <div id="container">
         <!-- 헬스케어 결과확인 제목 -->
-        <form name="healthcare_now_form" action="healthcare_now_form_ok.jsp">
+        <form method="GET" name="healthcare_now_form" action="/team3/specrecord/edit.do.jsp">
           <div class="formtotal">
             <div class="font">
               <i class="fas fa-search"
@@ -63,28 +63,28 @@
             <!-- 헬스케어 결과확인 정보  -->
             <div id="kal">
               <label>하루 권장 소비 칼로리</label>
-              <input type="number"  name="txtkal" required value="${a}" readonly  />
+              <input type="text"  name="txtkal" required value="${a}&nbsp;Kcal" readonly  />
             </div>
             <div style="clear: both"></div>
 
             <div id="tansu">
               <label>권장 탄수화물 섭취량</label>
-              <input type="number" value="탄수화물" name="txttansu" readonly />
+              <input type="text" name="txttansu" required value="${b}&nbsp;g" readonly />
             </div>
 
             <div id="pro">
               <label>권장 단백질 섭취량</label>
-              <input type="number" value="단백질" name="txtpro" readonly />
+              <input type="text"  name="txtpro" required value="${c}&nbsp;g" readonly  />
             </div>
 
             <div id="fat_r">
               <label>권장 지방 섭취량</label>
-              <input type="number" value="지방" name="fat_r" readonly />
+              <input type="text"  name="fat_r" required value="${d}&nbsp;g" readonly />
             </div>
 
             <div id="kg">
-              <label>목표 감량 KG</label>
-              <input type="number" value="감량무게" name="txtkg" readonly />
+              <label>목표 감량 체중</label>
+              <input type="text" name="txtkg"required value="${e}&nbsp;Kg" readonly />
             </div>
             <div style="clear: both"></div>
 

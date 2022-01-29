@@ -106,7 +106,7 @@ input[type="date"] {
   font-weight: bold;
 }
 
-input[type="button"] {
+.pk11 > input[type="submit"] {
   width: 100px;
   height: 35px;
   background-color: #113e3a;

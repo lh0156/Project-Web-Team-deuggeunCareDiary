@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -73,13 +74,13 @@
             </figure>
 
             <!-- 헬스케어 히스토리 조회, 수정, 추가 입력창  -->
-            <form name="healthcare_record_form" action="healthcare_record_form_ok.jsp">
+            <form method="GET" name="healthcare_record_form" action="/team3/specrecord/edit.do">
               <div id="formtotal2">
                 <div class="label">
                   <label class="p">기간 조회</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <input type="date" name="txtcal1" id="pk1"/>&nbsp;&nbsp;&nbsp;<i class="fas fa-minus"></i>&nbsp;&nbsp;&nbsp;
-                  <input type="date" name="txtcal2" id="pk2"/>&nbsp;&nbsp;
-                  <input type="button" value="조회" name="txtcalp" class="pk11"/>
+                  <input type="date" name="start" id="pk1"/>&nbsp;&nbsp;&nbsp;<i class="fas fa-minus"></i>&nbsp;&nbsp;&nbsp;
+                  <input type="date" name="end" id="pk2"/>&nbsp;&nbsp;
+                  <input type="submit" value="조회" name="txtcalp" class="pk11"/>
                 </div>
                 <div style="clear: both"></div>
 
@@ -87,23 +88,24 @@
                   <label class="p">나의 체중</label>
                   <input type="number"  name="weight"  id="pk3"/>    
                   <input type="date" name="txtcal3"  id="pk4"/>&nbsp;&nbsp;                 
-                <input type="button" value="추가 / 수정" name="txtcalpweightp" class="pk11" />
+                <input type="submit" value="추가 / 수정" name="txtcalpweightp" class="pk11" />
                  </div> <div style="clear: both"></div>
     
                  <div class="label">
                   <label class="p">나의 체지방량</label>
                   <input type="number"  name="fat"  id="pk6"/>
                   <input type="date" name="txtcal4" id="pk7"/>&nbsp;&nbsp;
-                <input type="button" value="추가 / 수정" name="txtpfatp" class="pk11"/>
+                <input type="submit" value="추가 / 수정" name="txtpfatp" class="pk11"/>
                 </div><div style="clear: both"></div>
 
                 <div class="label">
                   <label class="p">나의 근육량</label>
                   <input type="number"  name="muscle"  id="pk9"/>
                   <input type="date" name="txtcal5"  id="pk10"/>&nbsp;&nbsp;
-                <input type="button" value="추가 / 수정"  name="txtpmusclep"  class="pk11"/>
+                <input type="submit" value="추가 / 수정"  name="txtpmusclep"  class="pk11"/>
                 </div><div style="clear: both"></div>
-
+			<!-- 히든 (멤버 시퀀스 넘기기용) -->
+			<input type="hidden" name="memberseq" value="${memberseq }"> 
               </div>
             </form>
 
@@ -116,69 +118,68 @@
     <script>
 
             // 헬스케어 그래프 //
-            Highcharts.chart('chart', {      
-            title: {
-                text: ' '
-            },            
-            subtitle: {
-                text: ' '
-            },           
-            yAxis: {
-                title: {
-                    text: ' '
-                }
-            },
+ Highcharts.chart('chart', {
 
-            xAxis: {
-                type: 'date' ,format: '{value:%b-%e}'
-                },
+  title: {
+    text: ' '
+  },
 
-            // xAxis: {
-            //     accessibility: {
-            //         rangeDescription: 'Range: 2020 to 2021'
-            //     }
-            // },
-           
-            legend: {
-                layout: 'vertical',
-                align: 'right',
-                verticalAlign: 'middle'
-            },           
-            plotOptions: {
-                series: {
-                    label: {
-                        connectorAllowed: false
-                    },
-                    pointStart: 12
-                }
-                
-            }, 
-                      
-            series: [{
-                name: '나의 체중 (kg)',
-                data: [90, 85, 80, 75, 70, 65, 60, 55]
-            }, {
-                name: '나의 체지방량 (kg)',
-                data: [20, 19, 18, 17, 16, 15, 14, 13]
-            }, {
-                name: '나의 근육량 (kg)',
-                data: [15, 14, 13, 12, 11, 10, 9, 8]
-            }],           
-            responsive: {
-                rules: [{
-                    condition: {
-                        maxWidth: 500
-                    },
-                    chartOptions: {
-                        legend: {
-                            layout: 'horizontal',
-                            align: 'center',
-                            verticalAlign: 'bottom'
-                        }
-                    }
-                }]
-            }
-            });
+  subtitle: {
+    text: ' '
+  },
+
+  yAxis: {
+    title: {
+      text: ' '
+    }
+  },
+
+  xAxis: {
+	  categories: ['12/10', '12/11', '12/12', '12/13', '12/14', '12/15','12/16','12/17','12/18']     
+    },
+
+  legend: {
+    layout: 'vertical',
+    align: 'right',
+    verticalAlign: 'middle'
+  },
+
+  plotOptions: {
+    series: {
+      label: {
+        connectorAllowed: false
+      },
+      pointStart: 12/09
+    }
+  },
+
+  series: [{
+      name: '나의 체중 (kg)',
+      data: [65, 68, 65, 65, 65, 65, 68, 68]
+  }, {
+      name: '나의 체지방량 (kg)',
+      data: [21, 21, 20, 20, 20, 19, 19, 19]
+  }, {
+      name: '나의 근육량 (kg)',
+      data: [28, 28, 25, 25, 25, 25, 27, 27]
+  }], 
+
+  responsive: {
+    rules: [{
+      condition: {
+        maxWidth: 500
+      },
+      chartOptions: {
+        legend: {
+          layout: 'horizontal',
+          align: 'center',
+          verticalAlign: 'bottom'
+        }
+      }
+    }]
+  }
+
+});
 
             // 헬스케어 히스토리 입력창 
             // 헬스케어 히스토리 입력창 - 날짜

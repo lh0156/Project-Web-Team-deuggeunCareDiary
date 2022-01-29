@@ -40,20 +40,48 @@ public class SpecResult extends HttpServlet {
 		dao.insertWantSpec(dto);
 		
 		
-		//멤버시퀀스 전달
-		req.setAttribute("memberseq", memberseq);
+		NowSpecDAO nowdao = new NowSpecDAO();
+		NowSpecDTO nowdto = new NowSpecDTO();
 		
+		nowdto = nowdao.getNowSpec(memberseq);
 		
 		//하루 권장 소비 칼로리 계산
-		//int weightkal=Integer.parseInt(dto.getWantWeight());
-		//int a;
+		double a;
 		
-		//a = (int) ((int) (weightkal*0.35) * 0.5);
+		a = 370 +  ( (Double.parseDouble(nowdto.getTxtweight()) - Double.parseDouble(nowdto.getTxtfat())) * 21.6);
 		
-		//req.setAttribute("memberseq", memberseq);
-		//req.setAttribute("dto", dto);
-		//req.setAttribute("a", a);
+
+		//탄수화물 계산
+		double b;
 		
+		b = (a*0.4/4);
+	
+		
+		
+		//단백질 계산
+		double c;
+		
+		c = (Double.parseDouble(nowdto.getTxtweight()) * 1.8);
+		
+
+		
+		//지방 계산
+		double d;
+		
+		d = (a * 0.3/9);
+		
+
+		//목표 감량 계산
+		double e;
+		e =  Double.parseDouble(nowdto.getTxtweight()) - Double.parseDouble(dto.getWantWeight());
+		
+		req.setAttribute("memberseq", memberseq);
+		req.setAttribute("dto", dto);
+		req.setAttribute("a", a);
+		req.setAttribute("b", b);
+		req.setAttribute("c", c);
+		req.setAttribute("d", d);
+		req.setAttribute("e", e);
 		
 
 		

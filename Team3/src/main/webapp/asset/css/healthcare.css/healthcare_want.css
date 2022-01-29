@@ -59,7 +59,7 @@
   margin-left: 60px;
 }
 
-#time > input[type="number"] {
+input[type="date"] {
   width: 150px;
   height: 35px;
   font-size: 15px;
@@ -68,6 +68,9 @@
   outline: none;
   padding-left: 10px;
   background-color: rgb(233, 233, 233);
+  cursor: pointer;
+  font-family: "InfinitySans-RegularA1";
+  font-weight: bold;
 }
 
 input[type="number"] {
@@ -89,6 +92,7 @@ input[type="number"] {
   padding: 0.5em 3.5em 0.5em 1em;
   width: 150px;
   height: 40px;
+  color : #202020;
 }
 
 /* 헬스케어 넘어가기 버튼 */

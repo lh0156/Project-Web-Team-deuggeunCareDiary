@@ -23,7 +23,8 @@
                  
           
                     <div id="menu">
-                        <a href="/admin/membermanagement/membermanagement.do">관리자 메뉴</a>&nbsp;|&nbsp;
+                    	${id}님 득근! |
+                        <a href="/team3/admin/membermanagement/membermanagement.do">&nbsp;관리메뉴</a>&nbsp;|&nbsp;
                         <a href="/team3/member/logout.do">로그아웃</a>&nbsp;|&nbsp;
                         <a href="/team3/mypage/myordersearch.do">주문내역</a>&nbsp;|&nbsp;
                     </div>
@@ -36,13 +37,13 @@
                 <div class="side">
                     <a href="#!"><i class="fas fa-bars" style="margin-right: 1rem;"></i>전체 카테고리</a>
                     <ul id="drop-category">
-                        <li onclick="location.href='productlist.do?category=닭가슴살';">닭가슴살</li>
-                        <li onclick="location.href='productlist.do?category=도시락';">도시락</li>
-                        <li onclick="location.href='productlist.do?category=야채류';">야채류</li>
-                        <li onclick="location.href='productlist.do?category=단백질보충제';">단백질보충제</li>
-                        <li onclick="location.href='productlist.do?category=기타영양제';">기타영양제</li>
-                        <li onclick="location.href='productlist.do?category=영양별';">영양별 상품조회</li>
-                        <li onclick="location.href='productlist.do?category=개인별';">개인별 상품조회</li>
+                        <li onclick="location.href='product/productlist.do?category=닭가슴살';">닭가슴살</li>
+                        <li onclick="location.href='product/productlist.do?category=도시락';">도시락</li>
+                        <li onclick="location.href='product/productlist.do?category=야채류';">야채류</li>
+                        <li onclick="location.href='product/productlist.do?category=단백질보충제';">단백질보충제</li>
+                        <li onclick="location.href='product/productlist.do?category=기타영양제';">기타영양제</li>
+                        <li onclick="location.href='product/productlist.do?category=영양별';">영양별 상품조회</li>
+                        <li onclick="location.href='product/productlist.do?category=개인별';">개인별 상품조회</li>
                     </ul>
                 </div>
                 <div class="main-nav"><a href="#!">베스트</a></div>
@@ -79,7 +80,8 @@
                  
           
                     <div id="menu">
-                        <a href="/team3/member/logout.do">로그아웃 </a>&nbsp;|&nbsp;
+                    	${id}님 득근! |
+                        <a href="/team3/member/logout.do">&nbsp;로그아웃 </a>&nbsp;|&nbsp;
                         <a href="/team3/mypage/myordersearch.do">주문조회 </a>&nbsp;|&nbsp; 
                         <a href="/team3/cscenter/frequentqa.do">고객센터</a>
                     </div>
@@ -92,13 +94,13 @@
                 <div class="side">
                     <a href="#!"><i class="fas fa-bars" style="margin-right: 1rem;"></i>전체 카테고리</a>
                     <ul id="drop-category">
-                        <li onclick="location.href='productlist.do?category=닭가슴살';">닭가슴살</li>
-                        <li onclick="location.href='productlist.do?category=도시락';">도시락</li>
-                        <li onclick="location.href='productlist.do?category=야채류';">야채류</li>
-                        <li onclick="location.href='productlist.do?category=단백질보충제';">단백질보충제</li>
-                        <li onclick="location.href='productlist.do?category=기타영양제';">기타영양제</li>
-                        <li onclick="location.href='productlist.do?category=영양별';">영양별 상품조회</li>
-                        <li onclick="location.href='productlist.do?category=개인별';">개인별 상품조회</li>
+                        <li onclick="location.href='product/productlist.do?category=닭가슴살';">닭가슴살</li>
+                        <li onclick="location.href='product/productlist.do?category=도시락';">도시락</li>
+                        <li onclick="location.href='product/productlist.do?category=야채류';">야채류</li>
+                        <li onclick="location.href='product/productlist.do?category=단백질보충제';">단백질보충제</li>
+                        <li onclick="location.href='product/productlist.do?category=기타영양제';">기타영양제</li>
+                        <li onclick="location.href='product/productlist.do?category=영양별';">영양별 상품조회</li>
+                        <li onclick="location.href='product/productlist.do?category=개인별';">개인별 상품조회</li>
                     </ul>
                 </div>
                 <div class="main-nav"><a href="#!">베스트</a></div>
@@ -148,13 +150,13 @@
                 <div class="side">
                     <a href="#!"><i class="fas fa-bars" style="margin-right: 1rem;"></i>전체 카테고리</a>
                     <ul id="drop-category">
-                        <li onclick="location.href='productlist.do?category=닭가슴살';">닭가슴살</li>
-                        <li onclick="location.href='productlist.do?category=도시락';">도시락</li>
-                        <li onclick="location.href='productlist.do?category=야채류';">야채류</li>
-                        <li onclick="location.href='productlist.do?category=단백질보충제';">단백질보충제</li>
-                        <li onclick="location.href='productlist.do?category=기타영양제';">기타영양제</li>
-                        <li onclick="location.href='productlist.do?category=영양별';">영양별 상품조회</li>
-                        <li onclick="location.href='productlist.do?category=개인별';">개인별 상품조회</li>
+                        <li onclick="location.href='product/productlist.do?category=닭가슴살';">닭가슴살</li>
+                        <li onclick="location.href='product/productlist.do?category=도시락';">도시락</li>
+                        <li onclick="location.href='product/productlist.do?category=야채류';">야채류</li>
+                        <li onclick="location.href='product/productlist.do?category=단백질보충제';">단백질보충제</li>
+                        <li onclick="location.href='product/productlist.do?category=기타영양제';">기타영양제</li>
+                        <li onclick="location.href='product/productlist.do?category=영양별';">영양별 상품조회</li>
+                        <li onclick="location.href='product/productlist.do?category=개인별';">개인별 상품조회</li>
                     </ul>
                 </div>
                 <div class="main-nav"><a href="#!">베스트</a></div>

@@ -96,9 +96,9 @@
                                             <img src="/team3/asset/images/star_off.png" alt="별점">
                                     </span>
 
-                                    <span class="reviewScore">4.6</span>
+                                    <span class="reviewScore">4.5</span>
                                     <span class="reviews"> 리뷰수 </span>
-                                    <span class="reviewsCount">37</span>
+                                    <span class="reviewsCount">1</span>
                                 </div>
                             </div>
                     <!-- 상품주문 -->
