@@ -1,4 +1,4 @@
-<div align=center>![image](https://user-images.githubusercontent.com/62834176/152824663-10bed3b6-f66f-4318-87a4-e143b823dd4b.png)</div>
+![image](https://user-images.githubusercontent.com/62834176/152824663-10bed3b6-f66f-4318-87a4-e143b823dd4b.png)
 
 ## 📜요약
 
