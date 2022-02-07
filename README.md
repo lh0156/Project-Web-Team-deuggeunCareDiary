@@ -1,6 +1,6 @@
 
 ![image](https://user-images.githubusercontent.com/62834176/152826582-20d71260-6ca0-4352-a002-17804fb68808.png)
-<div align="center">
+
 ## 📜요약
 
 
@@ -58,4 +58,4 @@
 
 
 ![image](https://user-images.githubusercontent.com/62834176/152825212-a457a97e-6a08-465c-b78d-d6578c2bc803.png)
-  </div>
+
